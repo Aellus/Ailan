@@ -2,13 +2,6 @@
 # > 360
 DOMAIN-SUFFIX,qhres.com,DIRECT
 DOMAIN-SUFFIX,qhimg.com,DIRECT
-# > Akamai
-DOMAIN-SUFFIX,akadns.net,DIRECT
-# DOMAIN-SUFFIX,akamai.net,DIRECT
-# DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-# DOMAIN-SUFFIX,akamaihd.net,DIRECT
-# DOMAIN-SUFFIX,akamaistream.net,DIRECT
-# DOMAIN-SUFFIX,akamaized.net,DIRECT
 # > Alibaba
 USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 DOMAIN-SUFFIX,alibaba.com,DIRECT
@@ -27,19 +20,6 @@ DOMAIN-SUFFIX,ykimg.com,DIRECT
 DOMAIN-SUFFIX,youku.com,DIRECT
 DOMAIN-SUFFIX,xiami.com,DIRECT
 DOMAIN-SUFFIX,xiami.net,DIRECT
-# > Apple
-DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,apple.co,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,crashlytics.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN,www-cdn.icloud.com.akadns.net,DIRECT
 # > Baidu
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,baidubcr.com,DIRECT
@@ -106,16 +86,6 @@ DOMAIN-SUFFIX,mi-img.com,DIRECT
 DOMAIN-SUFFIX,miui.com,DIRECT
 DOMAIN-SUFFIX,miwifi.com,DIRECT
 DOMAIN-SUFFIX,xiaomi.com,DIRECT
-# > Microsoft
-DOMAIN-SUFFIX,microsoft.com,DIRECT
-DOMAIN-SUFFIX,msecnd.net,DIRECT
-DOMAIN-SUFFIX,office365.com,DIRECT
-DOMAIN-SUFFIX,outlook.com,DIRECT
-DOMAIN-SUFFIX,s-microsoft.com,DIRECT
-DOMAIN-SUFFIX,visualstudio.com,DIRECT
-DOMAIN-SUFFIX,windows.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
 # > NetEase
 USER-AGENT,NeteaseMusic*,DIRECT
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
@@ -183,6 +153,54 @@ DOMAIN-SUFFIX,ip-cdn.com,DIRECT
 DOMAIN-SUFFIX,ipv6-test.com,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,whatismyip.com,DIRECT
+#>dazhong
+DOMAIN-SUFFIX,dianping.com,DIRECT
+DOMAIN-SUFFIX,dpfile.com,DIRECT
+#>citis
+DOMAIN-SUFFIX,citicsinfo.com,DIRECT
+DOMAIN-SUFFIX,citics.com,DIRECT
+#>xueqiu
+DOMAIN-SUFFIX,xueqiu.com,DIRECT
+DOMAIN-SUFFIX,imedao.com,DIRECT
+#>eastmoney
+DOMAIN-SUFFIX,eastmoney.com,DIRECT
+DOMAIN-SUFFIX,18.cn,DIRECT
+#>airchina
+DOMAIN-SUFFIX,xdrig.com.com,DIRECT
+DOMAIN-SUFFIX,airchina.com,DIRECT
+#>qunar
+DOMAIN-SUFFIX,qunar.com,DIRECT
+DOMAIN-SUFFIX,qunarcdn.com,DIRECT
+DOMAIN-SUFFIX,qunarzz.com,DIRECT
+#>ctrip
+DOMAIN-SUFFIX,ctrip.com,DIRECT
+DOMAIN-SUFFIX,c-ctrip.com,DIRECT
+#>icbc
+DOMAIN-SUFFIX,icbc.com.cn,DIRECT
+#>smzdm
+DOMAIN-SUFFIX,smzdm.com,DIRECT
+#>xiaohongshu
+DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
+DOMAIN-SUFFIX,xhscdn.com,DIRECT
+#>kaiyan
+DOMAIN-SUFFIX,kaiyanapp.com,DIRECT
+DOMAIN-SUFFIX,lkme.cc,DIRECT
+#>ziroom
+DOMAIN-SUFFIX,ziroom.com,DIRECT
+#>mafengwo
+DOMAIN-SUFFIX,mafengwo.cn,DIRECT
+#>gtja
+DOMAIN-SUFFIX,gtja.com,DIRECT
+DOMAIN-SUFFIX,gtjadev.com,DIRECT
+#>zhangle
+DOMAIN-SUFFIX,zhangle.com,DIRECT
+#>teamviewer
+DOMAIN-SUFFIX,teamviewer.com,DIRECT
+#>zhangle
+DOMAIN-SUFFIX,itiger.com,DIRECT
+#>ithome
+DOMAIN-SUFFIX,ruanmei.com,DIRECT
+DOMAIN-SUFFIX,ithome.com,DIRECT
 # > Speed Test
 # DOMAIN-SUFFIX,speedtest.net,DIRECT
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
