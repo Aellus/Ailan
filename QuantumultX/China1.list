@@ -398,8 +398,3 @@ DOMAIN-SUFFIX,zhimg.com,China
 DOMAIN-SUFFIX,zhuihd.com,China
 DOMAIN,download.jetbrains.com,China
 DOMAIN,images-cn.ssl-images-amazon.com,China
-
-# DNSPod Public DNS+
-IP-CIDR,119.28.28.28/32,China
-# GeoIP China
-GEOIP,CN,China
