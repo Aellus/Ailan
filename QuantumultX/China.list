@@ -159,6 +159,7 @@ DOMAIN-SUFFIX,dpfile.com,China
 #>citis
 DOMAIN-SUFFIX,citicsinfo.com,China
 DOMAIN-SUFFIX,citics.com,China
+USER-AGENT,tztmobileapp_zxsc2.0*,China
 #>xueqiu
 DOMAIN-SUFFIX,xueqiu.com,China
 DOMAIN-SUFFIX,imedao.com,China
@@ -195,7 +196,7 @@ DOMAIN-SUFFIX,gtjadev.com,China
 DOMAIN-SUFFIX,zhangle.com,China
 #>teamviewer
 DOMAIN-SUFFIX,teamviewer.com,China
-#>zhangle
+#>itiger
 DOMAIN-SUFFIX,itiger.com,China
 #>ithome
 DOMAIN-SUFFIX,ruanmei.com,China
