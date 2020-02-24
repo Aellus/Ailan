@@ -121,6 +121,7 @@ DOMAIN-SUFFIX,steamstat.us,China
 # > Tencent
 USER-AGENT,MicroMessenger%20Client,China
 USER-AGENT,WeChat*,China
+USER-AGENT,QQ*,China
 DOMAIN-SUFFIX,gtimg.com,China
 DOMAIN-SUFFIX,idqqimg.com,China
 DOMAIN-SUFFIX,igamecj.com,China
@@ -196,6 +197,7 @@ DOMAIN-SUFFIX,gtjadev.com,China
 DOMAIN-SUFFIX,zhangle.com,China
 #>teamviewer
 DOMAIN-SUFFIX,teamviewer.com,China
+USER-AGENT,TeamViewer*,China
 #>itiger
 DOMAIN-SUFFIX,itiger.com,China
 #>ithome
