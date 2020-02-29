@@ -1,10 +1,10 @@
 # > Youtube
-USER-AGENT,*youtube*,PROXY
-USER-AGENT,YouTube*,PROXY
-DOMAIN-KEYWORD,youtube,PROXY
-DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,gvt2.com,PROXY
-DOMAIN-SUFFIX,youtu.be,PROXY
+USER-AGENT,*youtube*,GMedia
+USER-AGENT,YouTube*,GMedia
+DOMAIN-KEYWORD,youtube,GMedia
+DOMAIN-SUFFIX,googlevideo.com,GMedia
+DOMAIN-SUFFIX,gvt2.com,GMedia
+DOMAIN-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 
 # > Netflix
