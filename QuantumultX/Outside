@@ -36,7 +36,7 @@ IP-CIDR,17.0.0.0/8,Outside
 DOMAIN,gspe1-ssl.ls.apple.com,Outside
 USER-AGENT,AppleNews*,Outside
 USER-AGENT,com.apple.news*,Outside
-HOST-SUFFIX,,apple.news,Outside
+HOST-SUFFIX,apple.news,Outside
 DOMAIN,news-client.apple.com,Outside
 DOMAIN,news-edge.apple.com,Outside
 DOMAIN,news-events.apple.com,Outside
