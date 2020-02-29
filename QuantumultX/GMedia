@@ -40,6 +40,12 @@ IP-CIDR,35.186.224.47/32,GMedia
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
 
+# > Apple TV
+DOMAIN,np-edge.itunes.apple.com,GMedia
+DOMAIN,play-edge.itunes.apple.com,GMedia
+DOMAIN-SUFFIX,tv.apple.com,GMedia
+
+
 # > Abema TV
 USER-AGENT,AbemaTV*,GMedia
 HOST-SUFFIX,abema.io,GMedia
