@@ -650,6 +650,3 @@ HOST-SUFFIX,zhangzishi.cc,China
 HOST-SUFFIX,zhuihd.com,China
 DOMAIN,download.jetbrains.com,China
 DOMAIN,images-cn.ssl-images-amazon.com,China
-
-# GEOIP 
-GEOIP,CN,China
