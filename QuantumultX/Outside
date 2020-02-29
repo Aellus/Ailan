@@ -29,6 +29,18 @@ HOST-SUFFIX,itunes.com,Outside
 HOST-SUFFIX,me.com,Outside
 HOST-SUFFIX,mzstatic.com,Outside
 HOST,api.smoot.apple.cn,Outside
+DOMAIN,www-cdn.icloud.com.akadns.net,Outside
+IP-CIDR,17.0.0.0/8,Outside
+
+# > Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,Outside
+USER-AGENT,AppleNews*,Outside
+USER-AGENT,com.apple.news*,Outside
+HOST-SUFFIX,,apple.news,Outside
+DOMAIN,news-client.apple.com,Outside
+DOMAIN,news-edge.apple.com,Outside
+DOMAIN,news-events.apple.com,Outside
+DOMAIN,apple.comscoreresearch.com,Outside
 
 # > Microsoft
 USER-AGENT,Microsoft*,Outside
@@ -57,6 +69,66 @@ HOST-SUFFIX,windows.net,Outside
 HOST-SUFFIX,xbox.com,Outside
 HOST-SUFFIX,xboxlive.com,Outside
 
+# > Google
+HOST-SUFFIX,ampproject.org,Outside
+HOST-SUFFIX,abc.xyz,Outside
+HOST-SUFFIX,android.com,Outside
+HOST-SUFFIX,androidify.com,Outside
+HOST-SUFFIX,dialogflow.com,Outside
+HOST-SUFFIX,autodraw.com,Outside
+HOST-SUFFIX,capitalg.com,Outside
+HOST-SUFFIX,certificate-transparency.org,Outside
+HOST-SUFFIX,chrome.com,Outside
+HOST-SUFFIX,chromeexperiments.com,Outside
+HOST-SUFFIX,chromestatus.com,Outside
+HOST-SUFFIX,chromium.org,Outside
+HOST-SUFFIX,creativelab5.com,Outside
+HOST-SUFFIX,debug.com,Outside
+HOST-SUFFIX,deepmind.com,Outside
+HOST-SUFFIX,firebaseio.com,Outside
+HOST-SUFFIX,getmdl.io,Outside
+HOST-SUFFIX,ggpht.com,Outside
+HOST-SUFFIX,gmail.com,Outside
+HOST-SUFFIX,gmodules.com,Outside
+HOST-SUFFIX,godoc.org,Outside
+HOST-SUFFIX,golang.org,Outside
+HOST-SUFFIX,gstatic.com,Outside
+HOST-SUFFIX,gv.com,Outside
+HOST-SUFFIX,gwtproject.org,Outside
+HOST-SUFFIX,itasoftware.com,Outside
+HOST-SUFFIX,madewithcode.com,Outside
+HOST-SUFFIX,material.io,Outside
+HOST-SUFFIX,polymer-project.org,Outside
+HOST-SUFFIX,admin.recaptcha.net,Outside
+HOST-SUFFIX,recaptcha.net,Outside
+HOST-SUFFIX,shattered.io,Outside
+HOST-SUFFIX,synergyse.com,Outside
+HOST-SUFFIX,tensorflow.org,Outside
+HOST-SUFFIX,tfhub.dev,Outside
+HOST-SUFFIX,tiltbrush.com,Outside
+HOST-SUFFIX,waveprotocol.org,Outside
+HOST-SUFFIX,waymo.com,Outside
+HOST-SUFFIX,webmproject.org,Outside
+HOST-SUFFIX,webrtc.org,Outside
+HOST-SUFFIX,whatbrowser.org,Outside
+HOST-SUFFIX,widevine.com,Outside
+HOST-SUFFIX,x.company,Outside
+HOST-SUFFIX,youtu.be,Outside
+HOST-SUFFIX,yt.be,Outside
+HOST-SUFFIX,ytimg.com,Outside
+# (DNS Cache Pollution Protection)
+HOST-SUFFIX,appspot.com,Outside
+HOST-SUFFIX,blogger.com,Outside
+HOST-SUFFIX,getoutline.org,Outside
+HOST-SUFFIX,gvt0.com,Outside
+HOST-SUFFIX,gvt1.com,Outside
+HOST-SUFFIX,gvt3.com,Outside
+HOST-SUFFIX,,xn--ngstr-lra8j.com,Outside
+DOMAIN-KEYWORD,google,Outside
+DOMAIN-KEYWORD,blogspot,Outside
+IP-CIDR,173.194.0.0/16,Outside
+IP-CIDR,74.125.0.0/16,Outside
+
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -73,6 +145,19 @@ HOST-SUFFIX,line-apps.com,Outside
 HOST-SUFFIX,line-cdn.net,Outside
 HOST-SUFFIX,line-scdn.net,Outside
 HOST-SUFFIX,nhncorp.jp,Outside
+IP-CIDR,103.2.28.0/22,Outside
+IP-CIDR,119.235.224.0/21,Outside
+IP-CIDR,119.235.232.0/23,Outside
+IP-CIDR,119.235.235.0/24,Outside
+IP-CIDR,119.235.236.0/23,Outside
+IP-CIDR,125.6.146.0/24,Outside
+IP-CIDR,125.6.149.0/24,Outside
+IP-CIDR,125.6.190.0/24,Outside
+IP-CIDR,125.209.208.0/20,Outside
+IP-CIDR,203.104.103.0/24,Outside
+IP-CIDR,203.104.128.0/20,Outside
+IP-CIDR,203.174.66.64/26,Outside
+IP-CIDR,203.174.77.0/24,Outside
 
 # > OneDrive
 USER-AGENT,OneDrive*,Outside
@@ -95,22 +180,6 @@ HOST-SUFFIX,humblebundle.com,Outside
 HOST-SUFFIX,steamcommunity.com,Outside
 HOST-SUFFIX,steampowered.com,Outside
 HOST-SUFFIX,steamstatic.com,Outside
-
-# > Telegram
-HOST-KEYWORD,telegram,Outside
-DOMAIN-SUFFIX,t.me,Outside
-DOMAIN-SUFFIX,tdesktop.com,Outside
-DOMAIN-SUFFIX,telegra.ph,Outside
-DOMAIN-SUFFIX,telegram.me,Outside
-DOMAIN-SUFFIX,telegram.org,Outside
-IP-CIDR,91.108.4.0/22,Outside
-IP-CIDR,91.108.56.0/22,Outside
-IP-CIDR,91.108.56.0/23,Outside
-IP-CIDR,109.239.140.0/24,Outside
-IP-CIDR,149.154.160.0/22,Outside
-IP-CIDR,149.154.164.0/22,Outside
-IP-CIDR,149.154.168.0/22,Outside
-IP-CIDR,149.154.172.0/22,Outside
 
 # > TikTok
 USER-AGENT,TikTok*,Outside
@@ -142,11 +211,8 @@ HOST-SUFFIX,amazon.com,Outside
 HOST-SUFFIX,amazonaws.com,Outside
 HOST-SUFFIX,ampproject.com,Outside
 HOST-SUFFIX,ampproject.net,Outside
-HOST-SUFFIX,ampproject.org,Outside
 HOST-SUFFIX,anaconda.com,Outside
 HOST-SUFFIX,ancsconf.org,Outside
-HOST-SUFFIX,android.com,Outside
-HOST-SUFFIX,androidify.com,Outside
 HOST-SUFFIX,android-x86.org,Outside
 HOST-SUFFIX,angularjs.org,Outside
 HOST-SUFFIX,anthonycalzadilla.com,Outside
@@ -191,7 +257,6 @@ HOST-SUFFIX,bitshare.com,Outside
 HOST-SUFFIX,bkrtx.com,Outside
 HOST-SUFFIX,blog.com,Outside
 HOST-SUFFIX,blogcdn.com,Outside
-HOST-SUFFIX,blogger.com,Outside
 HOST-SUFFIX,bloglovin.com,Outside
 HOST-SUFFIX,blogsmithmedia.com,Outside
 HOST-SUFFIX,blogspot.hk,Outside
@@ -209,14 +274,10 @@ HOST-SUFFIX,cdn.segment.com,Outside
 HOST-SUFFIX,cdnst.net,Outside
 HOST-SUFFIX,celestrak.com,Outside
 HOST-SUFFIX,census.gov,Outside
-HOST-SUFFIX,certificate-transparency.org,Outside
 HOST-SUFFIX,chinadigitaltimes.net,Outside
 HOST-SUFFIX,chinatimes.com,Outside
-HOST-SUFFIX,chrome.com,Outside
 HOST-SUFFIX,chromecast.com,Outside
 HOST-SUFFIX,chromercise.com,Outside
-HOST-SUFFIX,chromestatus.com,Outside
-HOST-SUFFIX,chromium.org,Outside
 HOST-SUFFIX,cl.ly,Outside
 HOST-SUFFIX,cloudflare.com,Outside
 HOST-SUFFIX,cloudfront.net,Outside
@@ -275,7 +336,6 @@ HOST-SUFFIX,feedburner.com,Outside
 HOST-SUFFIX,feedly.com,Outside
 HOST-SUFFIX,feedsportal.com,Outside
 HOST-SUFFIX,fiftythree.com,Outside
-HOST-SUFFIX,firebaseio.com,Outside
 HOST-SUFFIX,flexibits.com,Outside
 HOST-SUFFIX,flickr.com,Outside
 HOST-SUFFIX,flipboard.com,Outside
@@ -295,30 +355,23 @@ HOST-SUFFIX,get.how,Outside
 HOST-SUFFIX,getcloudapp.com,Outside
 HOST-SUFFIX,getfoxyProxy.org,Outside
 HOST-SUFFIX,getlantern.org,Outside
-HOST-SUFFIX,getmdl.io,Outside
 HOST-SUFFIX,getpricetag.com,Outside
 HOST-SUFFIX,gfw.press,Outside
-HOST-SUFFIX,ggpht.com,Outside
 HOST-SUFFIX,ghostnoteapp.com,Outside
 HOST-SUFFIX,git.io,Outside
 HOST-SUFFIX,gitbook.com,Outside
 HOST-SUFFIX,globalsign.com,Outside
 HOST-SUFFIX,gmocloud.com,Outside
-HOST-SUFFIX,gmodules.com,Outside
 HOST-SUFFIX,go.com,Outside
 HOST-SUFFIX,go.jp,Outside
 HOST-SUFFIX,godaddy.com,Outside
-HOST-SUFFIX,golang.org,Outside
 HOST-SUFFIX,gongm.in,Outside
 HOST-SUFFIX,goo.gl,Outside
 HOST-SUFFIX,goodreaders.com,Outside
 HOST-SUFFIX,goodreads.com,Outside
 HOST-SUFFIX,gravatar.com,Outside
 HOST-SUFFIX,gstatic.cn,Outside
-HOST-SUFFIX,gstatic.com,Outside
 HOST-SUFFIX,gunsamerica.com,Outside
-HOST-SUFFIX,gvt0.com,Outside
-HOST-SUFFIX,gvt1.com,Outside
 HOST-SUFFIX,helpshift.com,Outside
 HOST-SUFFIX,hinet.net,Outside
 HOST-SUFFIX,hockeyapp.net,Outside
@@ -447,7 +500,6 @@ HOST-SUFFIX,playstation.com.hk,Outside
 HOST-SUFFIX,playstation.net,Outside
 HOST-SUFFIX,playstationnetwork.com,Outside
 HOST-SUFFIX,pokemon.com,Outside
-HOST-SUFFIX,polymer-project.org,Outside
 HOST-SUFFIX,popo.tw,Outside
 HOST-SUFFIX,potato.im,Outside
 HOST-SUFFIX,redd.it,Outside
@@ -464,7 +516,6 @@ HOST-SUFFIX,quora.com,Outside
 HOST-SUFFIX,quoracdn.net,Outside
 HOST-SUFFIX,readingtimes.com.tw,Outside
 HOST-SUFFIX,readmoo.com,Outside
-HOST-SUFFIX,recaptcha.net,Outside
 HOST-SUFFIX,reddit.com,Outside
 HOST-SUFFIX,redditmedia.com,Outside
 HOST-SUFFIX,reuters.com,Outside
@@ -546,7 +597,6 @@ HOST-SUFFIX,theinitium.com,Outside
 HOST-SUFFIX,thepiratebay.org,Outside
 HOST-SUFFIX,theverge.com,Outside
 HOST-SUFFIX,thewgo.org,Outside
-HOST-SUFFIX,tiltbrush.com,Outside
 HOST-SUFFIX,time.com,Outside
 HOST-SUFFIX,timeinc.net,Outside
 HOST-SUFFIX,tinder.com,Outside
@@ -654,7 +704,6 @@ HOST-SUFFIX,webwarper.net,Outside
 HOST-SUFFIX,wenxuecity.com,Outside
 HOST-SUFFIX,westca.com,Outside
 HOST-SUFFIX,westpoint.edu,Outside
-HOST-SUFFIX,whatbrowser.org,Outside
 HOST-SUFFIX,wikileaks.info,Outside
 HOST-SUFFIX,wikileaks.org,Outside
 HOST-SUFFIX,wikileaks-forum.com,Outside
@@ -690,9 +739,7 @@ HOST-SUFFIX,ying.com,Outside
 HOST-SUFFIX,yorkbbs.ca,Outside
 HOST-SUFFIX,youmaker.com,Outside
 HOST-SUFFIX,yourlisten.com,Outside
-HOST-SUFFIX,youtu.be,Outside
 HOST-SUFFIX,yoyo.org,Outside
-HOST-SUFFIX,ytimg.com,Outside
 HOST-SUFFIX,zacebook.com,Outside
 HOST-SUFFIX,zalmos.com,Outside
 HOST-SUFFIX,zaobao.com.sg,Outside
@@ -713,14 +760,9 @@ HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
 HOST-SUFFIX,1e100.net,Outside
 HOST-SUFFIX,2mdn.net,Outside
-HOST-SUFFIX,abc.xyz,Outside
 HOST-SUFFIX,akamai.net,Outside
-HOST-SUFFIX,appspot.com,Outside
-HOST-SUFFIX,autodraw.com,Outside
 HOST-SUFFIX,bandwagonhost.com,Outside
 HOST-SUFFIX,blogblog.com,Outside
-HOST-SUFFIX,chromeexperiments.com,Outside
-HOST-SUFFIX,creativelab5.com,Outside
 HOST-SUFFIX,crittercism.com,Outside
 HOST-SUFFIX,culturalspot.org,Outside
 HOST-SUFFIX,dartlang.org,Outside
@@ -729,17 +771,12 @@ HOST-SUFFIX,fb.me,Outside
 HOST-SUFFIX,fbcdn.net,Outside
 HOST-SUFFIX,fbsbx.com,Outside
 HOST-SUFFIX,gcr.io,Outside
-HOST-SUFFIX,gmail.com,Outside
 HOST-SUFFIX,gosetsuden.jp,Outside
-HOST-SUFFIX,gvt1.com,Outside
-HOST-SUFFIX,gwtproject.org,Outside
 HOST-SUFFIX,heroku.com,Outside
 HOST-SUFFIX,html5rocks.com,Outside
 HOST-SUFFIX,keyhole.com,Outside
 HOST-SUFFIX,kobo.com,Outside
 HOST-SUFFIX,kobobooks.com,Outside
-HOST-SUFFIX,madewithcode.com,Outside
-HOST-SUFFIX,material.io,Outside
 HOST-SUFFIX,messenger.com,Outside
 HOST-SUFFIX,netmarble.com,Outside
 HOST-SUFFIX,nianticlabs.com,Outside
@@ -747,15 +784,11 @@ HOST-SUFFIX,pinimg.com,Outside
 HOST-SUFFIX,pubnub.com,Outside
 HOST-SUFFIX,scdn.co,Outside
 HOST-SUFFIX,t.co,Outside
-HOST-SUFFIX,tensorflow.org,Outside
 HOST-SUFFIX,toggleable.com,Outside
 HOST-SUFFIX,torproject.org,Outside
 HOST-SUFFIX,twimg.com,Outside
 HOST-SUFFIX,twitpic.com,Outside
 HOST-SUFFIX,unfiltered.news,Outside
-HOST-SUFFIX,waveprotocol.org,Outside
-HOST-SUFFIX,webmproject.org,Outside
-HOST-SUFFIX,webrtc.org,Outside
 HOST-KEYWORD,dlercloud,Outside
 HOST-SUFFIX,dler.cloud,Outside
 
@@ -794,10 +827,6 @@ IP-CIDR,69.171.224.0/19,Outside
 IP-CIDR,69.63.176.0/20,Outside
 IP-CIDR,74.119.76.0/22,Outside
 
-# > Google
-IP-CIDR,173.194.0.0/16,Outside
-IP-CIDR,74.125.0.0/16,Outside
-
 # > Kakao Talk
 IP-CIDR,1.201.0.0/24,Outside
 IP-CIDR,103.246.56.0/22,Outside
@@ -805,21 +834,6 @@ IP-CIDR,103.27.148.0/22,Outside
 IP-CIDR,110.76.140.0/22,Outside
 IP-CIDR,113.61.104.0/22,Outside
 IP-CIDR,27.0.236.0/22,Outside
-
-# > LINE
-IP-CIDR,103.2.28.0/22,Outside
-IP-CIDR,119.235.224.0/21,Outside
-IP-CIDR,119.235.232.0/23,Outside
-IP-CIDR,119.235.235.0/24,Outside
-IP-CIDR,119.235.236.0/23,Outside
-IP-CIDR,125.6.146.0/24,Outside
-IP-CIDR,125.6.149.0/24,Outside
-IP-CIDR,125.6.190.0/24,Outside
-IP-CIDR,125.209.208.0/20,Outside
-IP-CIDR,203.104.103.0/24,Outside
-IP-CIDR,203.104.128.0/20,Outside
-IP-CIDR,203.174.66.64/26,Outside
-IP-CIDR,203.174.77.0/24,Outside
 
 # > Potato Chat
 IP-CIDR,13.251.24.157/24,Outside
