@@ -126,8 +126,8 @@ HOST-SUFFIX,gvt3.com,Global
 HOST-SUFFIX,xn--ngstr-lra8j.com,Global
 DOMAIN-KEYWORD,google,Global
 DOMAIN-KEYWORD,blogspot,Global
-IP-CIDR,173.194.0.0/16,Global
-IP-CIDR,74.125.0.0/16,Global
+IP-CIDR,173.194.0.0/16,PROXY,no-resolve
+IP-CIDR,74.125.0.0/16,PROXY,no-resolve
 
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Global
