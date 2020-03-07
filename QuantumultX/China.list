@@ -289,18 +289,63 @@ HOST-SUFFIX,ykimg.com,China
 HOST-SUFFIX,youku.com,China
 HOST-SUFFIX,xiami.com,China
 HOST-SUFFIX,xiami.net,China
+
 # > Baidu
 HOST-SUFFIX,baidu.com,China
 HOST-SUFFIX,baidubcr.com,China
 HOST-SUFFIX,bdstatic.com,China
 HOST-SUFFIX,yunjiasu-cdn.net,China
+
 # > bilibili
-HOST-SUFFIX,acgvideo.com,China
-HOST-SUFFIX,biliapi.com,China
-HOST-SUFFIX,biliapi.net,China
-HOST-SUFFIX,bilibili.com,China
-HOST-SUFFIX,bilibili.tv,China
-HOST-SUFFIX,hdslb.com,China
+DOMAIN-KEYWORD,bilibili,China
+DOMAIN-SUFFIX,acg.tv,China
+DOMAIN-SUFFIX,acgvideo.com,China
+DOMAIN-SUFFIX,b23.tv,China
+DOMAIN-SUFFIX,biliapi.com,China
+DOMAIN-SUFFIX,biliapi.net,China
+DOMAIN-SUFFIX,bilibili.com,China
+DOMAIN-SUFFIX,biligame.com,China
+DOMAIN-SUFFIX,biligame.net,China
+DOMAIN-SUFFIX,bilivideo.com,China
+DOMAIN-SUFFIX,hdslb.com,China
+DOMAIN-SUFFIX,im9.com,China
+USER-AGENT,*bili*,China
+
+# > IQIYI
+USER-AGENT,QIYI*,China
+USER-AGENT,iQiYi*,China
+DOMAIN-KEYWORD,qiyi,China
+DOMAIN-SUFFIX,qy.net,China
+IP-CIDR,101.227.0.0/16,China,no-resolve
+IP-CIDR,101.224.0.0/13,China,no-resolve
+IP-CIDR,119.176.0.0/12,China,no-resolve
+
+# > letv
+DOMAIN-SUFFIX,api.mob.app.letv.com,China
+
+# > MOO
+USER-AGENT,MOO*,DIRECT
+USER-AGENT,TencentMidasConnect*,China
+
+# > Tencent Video
+DOMAIN-SUFFIX,vv.video.qq.com,China
+
+# > Tencent
+USER-AGENT,MicroMessenger*,China
+USER-AGENT,WeChat*,China
+USER-AGENT,QQ*,China
+HOST-SUFFIX,gtimg.com,China
+HOST-SUFFIX,idqqimg.com,China
+HOST-SUFFIX,igamecj.com,China
+HOST-SUFFIX,myapp.com,China
+HOST-SUFFIX,myqcloud.com,China
+HOST-SUFFIX,qq.com,China
+HOST-SUFFIX,tencent.com,China
+HOST-SUFFIX,tencent-cloud.net,China
+
+# > Youku
+IP-CIDR,106.11.0.0/16,China,no-resolve
+
 
 # > ByteDance
 HOST-SUFFIX,feiliao.com,China
@@ -316,6 +361,7 @@ HOST-SUFFIX,livechina.com,China
 HOST-SUFFIX,didialift.com,China
 HOST-SUFFIX,didiglobal.com,China
 HOST-SUFFIX,udache.com,China
+
 # > 蛋蛋赞
 HOST-SUFFIX,343480.com,China
 HOST-SUFFIX,baduziyuan.com,China
@@ -324,63 +370,42 @@ HOST-SUFFIX,czybjz.com,China
 HOST-SUFFIX,dandanzan.com,China
 HOST-SUFFIX,fjhps.com,China
 HOST-SUFFIX,kuyunbo.club,China
+
 # > ChinaNet
 HOST-SUFFIX,21cn.com,China
+
 # > HunanTV
 HOST-SUFFIX,hitv.com,China
 HOST-SUFFIX,mgtv.com,China
-# > iQiyi
-HOST-SUFFIX,iqiyi.com,China
-HOST-SUFFIX,iqiyipic.com,China
-HOST-SUFFIX,71.am.com,China
+
 # > JD
 HOST-SUFFIX,jd.com,China
 HOST-SUFFIX,jd.hk,China
 HOST-SUFFIX,jdpay.com,China
 HOST-SUFFIX,360buyimg.com,China
+
 # > Kingsoft
 HOST-SUFFIX,iciba.com,China
 HOST-SUFFIX,ksosoft.com,China
+
 # > Meitu
 HOST-SUFFIX,meitu.com,China
 HOST-SUFFIX,meitudata.com,China
 HOST-SUFFIX,meitustat.com,China
 HOST-SUFFIX,meipai.com,China
+
 # > MI
 HOST-SUFFIX,duokan.com,China
 HOST-SUFFIX,mi-img.com,China
 HOST-SUFFIX,miui.com,China
 HOST-SUFFIX,miwifi.com,China
 HOST-SUFFIX,xiaomi.com,China
+
 # > NetEase
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,China
 USER-AGENT,NeteaseMusic*,China
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,China
-HOST-SUFFIX,163.com,China
-HOST-SUFFIX,126.net,China
-HOST-SUFFIX,127.net,China
-HOST-SUFFIX,163yun.com,China
-HOST-SUFFIX,lofter.com,China
-HOST-SUFFIX,netease.com,China
-HOST-SUFFIX,ydstatic.com,China
-IP-CIDR,39.105.63.80/32,China
-IP-CIDR,45.254.48.1/32,China
-IP-CIDR,47.100.127.239/32,China
-IP-CIDR,59.111.160.195/32,China
-IP-CIDR,59.111.160.197/32,China
-IP-CIDR,59.111.181.35/32,China
-IP-CIDR,59.111.181.38/32,China
-IP-CIDR,59.111.181.60/32,China
-IP-CIDR,101.71.154.241/32,China
-IP-CIDR,103.126.92.132/32,China
-IP-CIDR,103.126.92.133/32,China
-IP-CIDR,112.13.119.17/32,China
-IP-CIDR,112.13.122.1/32,China
-IP-CIDR,115.236.118.33/32,China
-IP-CIDR,115.236.121.1/32,China
-IP-CIDR,118.24.63.156/32,China
-IP-CIDR,193.112.159.225/32,China
-IP-CIDR,223.252.199.66/32,China
-IP-CIDR,223.252.199.67/32,China
+DOMAIN-SUFFIX,music.126.net,China
+DOMAIN-SUFFIX,music.163.com,China
 
 # > Sina
 HOST-SUFFIX,sina.com,China
@@ -405,18 +430,7 @@ HOST-SUFFIX,steamstatic.com,China
 HOST-SUFFIX,steamcdn-a.akamaihd.net,China
 HOST-SUFFIX,steamstat.us,China
 
-# > Tencent
-USER-AGENT,MicroMessenger*,China
-USER-AGENT,WeChat*,China
-USER-AGENT,QQ*,China
-HOST-SUFFIX,gtimg.com,China
-HOST-SUFFIX,idqqimg.com,China
-HOST-SUFFIX,igamecj.com,China
-HOST-SUFFIX,myapp.com,China
-HOST-SUFFIX,myqcloud.com,China
-HOST-SUFFIX,qq.com,China
-HOST-SUFFIX,tencent.com,China
-HOST-SUFFIX,tencent-cloud.net,China
+
 # > YYeTs
 USER-AGENT,YYeTs*,China
 HOST-SUFFIX,jstucdn.com,China
@@ -481,9 +495,17 @@ HOST-SUFFIX,gtja.com,China
 HOST-SUFFIX,gtjadev.com,China
 #>zhangle
 HOST-SUFFIX,zhangle.com,China
-#>teamviewer
-HOST-SUFFIX,teamviewer.com,China
-USER-AGENT,TeamViewer*,China
+
+#>Tamviewer
+IP-CIDR,185.188.32.0/24,China,no-resolve
+IP-CIDR,185.188.33.0/24,China,no-resolve
+IP-CIDR,185.188.34.0/24,China,no-resolve
+IP-CIDR,185.188.35.0/24,China,no-resolve
+IP-CIDR6,2a0b:b580::/48,China,no-resolve
+IP-CIDR6,2a0b:b581::/48,China,no-resolve
+IP-CIDR6,2a0b:b582::/48,China,no-resolve
+IP-CIDR6,2a0b:b583::/48,China,no-resolve
+
 #>itiger
 HOST-SUFFIX,itiger.com,China
 #>ithome
@@ -495,25 +517,44 @@ HOST-SUFFIX,llscdn.com,China
 USER-AGENT,liulishuo*,China
 #>Openlanguage
 HOST-SUFFIX,openlanguage.com,China
-# > Speed Test
-# HOST-SUFFIX,speedtest.net,China
-HOST-SUFFIX,netspeedtestmaster.com,China
-DOMAIN,speedtest.macpaw.com,China
+
+
 # > Private Tracker
-HOST-SUFFIX,awesome-hd.me,China
-HOST-SUFFIX,classix-unlimited.co.uk,China
-HOST-SUFFIX,empornium.me,China
-HOST-SUFFIX,gazellegames.net,China
-HOST-SUFFIX,hdsky.me,China
-HOST-SUFFIX,icetorrent.org,China
-HOST-SUFFIX,jpopsuki.eu,China
-HOST-SUFFIX,keepfrds.com,China
-HOST-SUFFIX,m-team.cc,China
-HOST-SUFFIX,nanyangpt.com,China
-HOST-SUFFIX,ncore.cc,China
-HOST-SUFFIX,open.cd,China
-HOST-SUFFIX,springsunday.net,China
-HOST-SUFFIX,tjupt.org,China
+DOMAIN-SUFFIX,awesome-hd.me,China
+DOMAIN-SUFFIX,broadcasthe.net,China
+DOMAIN-SUFFIX,chdbits.co,China
+DOMAIN-SUFFIX,classix-unlimited.co.uk,China
+DOMAIN-SUFFIX,empornium.me,China
+DOMAIN-SUFFIX,gazellegames.net,China
+DOMAIN-SUFFIX,hdchina.org,China
+DOMAIN-SUFFIX,hdsky.me,China
+DOMAIN-SUFFIX,icetorrent.org,China
+DOMAIN-SUFFIX,jpopsuki.eu,China
+DOMAIN-SUFFIX,keepfrds.com,China
+DOMAIN-SUFFIX,madsrevolution.net,China
+DOMAIN-SUFFIX,m-team.cc,China
+DOMAIN-SUFFIX,nanyangpt.com,China
+DOMAIN-SUFFIX,ncore.cc,China
+DOMAIN-SUFFIX,open.cd,China
+DOMAIN-SUFFIX,ourbits.club,China
+DOMAIN-SUFFIX,passthepopcorn.me,China
+DOMAIN-SUFFIX,privatehd.to,China
+DOMAIN-SUFFIX,redacted.ch,China
+DOMAIN-SUFFIX,springsunday.net,China
+DOMAIN-SUFFIX,tjupt.org,China
+DOMAIN-SUFFIX,totheglory.im,China
+
+# > Accelerate direct sites
+DOMAIN-KEYWORD,announce,China
+DOMAIN-KEYWORD,torrent,China
+DOMAIN-KEYWORD,tracker,China
+DOMAIN-SUFFIX,smtp,China
+// URL-REGEX,(Subject|HELO|SMTP),China
+// URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com,China
+// URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com),China
+// URL-REGEX,(.+\.)?(torrent|announce\.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(\..+)?,China
+
+
 # > Scholar
 HOST-SUFFIX,acm.org,China
 HOST-SUFFIX,acs.org,China
