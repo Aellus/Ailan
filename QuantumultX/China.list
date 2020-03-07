@@ -52,12 +52,6 @@ HOST,client.amplifi.com,China
 HOST-SUFFIX,alphassl.com,China
 HOST-SUFFIX,edu.cn,China
 
-# > TeamViewer
-IP-CIDR,185.188.32.0/24,China
-IP-CIDR,185.188.33.0/24,China
-IP-CIDR,185.188.34.0/24,China
-IP-CIDR,185.188.35.0/24,China
-
 # Mainland
 HOST-SUFFIX,10010.com,China
 HOST-SUFFIX,10089.cn,China
