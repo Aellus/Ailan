@@ -165,11 +165,6 @@ IP-CIDR,203.174.77.0/24,Global,no-resolve
 USER-AGENT,OneDrive*,Global
 HOST-SUFFIX,onedrive.com,Global
 
-# > PayPal
-USER-AGENT,PayPal*,Global
-HOST-SUFFIX,paypal.com,Global
-HOST-SUFFIX,paypalobjects.com,Global
-
 # > Spark
 HOST-SUFFIX,api.amplitude.com,Global
 HOST-SUFFIX,app.smartmailcloud.com,Global
