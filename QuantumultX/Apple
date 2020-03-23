@@ -31,3 +31,13 @@ HOST-SUFFIX,mzstatic.com,Global
 HOST,api.smoot.apple.cn,Global
 DOMAIN,www-cdn.icloud.com.akadns.net,Global
 IP-CIDR,17.0.0.0/8,no-resolve,Global
+
+# > Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,Global
+USER-AGENT,AppleNews*,Global
+USER-AGENT,com.apple.news*,Global
+HOST-SUFFIX,apple.news,Global
+DOMAIN,news-client.apple.com,Global
+DOMAIN,news-edge.apple.com,Global
+DOMAIN,news-events.apple.com,Global
+DOMAIN,apple.comscoreresearch.com,Global
