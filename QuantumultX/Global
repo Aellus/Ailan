@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,x.company,Global
 DOMAIN-SUFFIX,youtu.be,Global
 DOMAIN-SUFFIX,yt.be,Global
 DOMAIN-SUFFIX,ytimg.com,Global
+DOMAIN-SUFFIX,google.cn,Global
 
 # (DNS Cache Pollution Protection)
 HOST-SUFFIX,appspot.com,Global
