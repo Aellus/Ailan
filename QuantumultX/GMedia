@@ -141,12 +141,18 @@ DOMAIN-SUFFIX,viu.tv,GMedia
 DOMAIN-SUFFIX,viu.now.com,GMedia
 
 # > Youtube
+
+
 USER-AGENT,*youtube*,GMedia
 USER-AGENT,YouTube*,GMedia
-DOMAIN-KEYWORD,youtube,GMedia
-DOMAIN-SUFFIX,googlevideo.com,GMedia
-DOMAIN-SUFFIX,gvt2.com,GMedia
-DOMAIN-SUFFIX,youtu.be,GMedia
+HOST-KEYWORD,youtube,GMedia
+HOST,yt3.ggpht.com,GMedia
+HOST-SUFFIX,googlevideo.com,GMedia
+HOST-SUFFIX,gvt2.com,GMedia
+HOST-SUFFIX,youtu.be,GMedia
+HOST,youtubei.googleapis.com,GMedia
+HOST-SUFFIX,ytimg.com,GMedia
+
 
 # > Netflix
 DOMAIN-SUFFIX,netflix.com,GMedia
