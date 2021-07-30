@@ -82,11 +82,9 @@ HOST-SUFFIX,mzstatic.com
 HOST,api.smoot.apple.cn
 DOMAIN,www-cdn.icloud.com.akadns.net
 
-
 # > Apple News and Apple Map TOMTOM Version
 DOMAIN,gspe1-ssl.ls.apple.com
 USER-AGENTNews*
-
 HOST-SUFFIX.news
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
