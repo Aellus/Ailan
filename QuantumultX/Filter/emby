@@ -1,0 +1,3 @@
+# Emby
+USER-AGENT,*emby*,Emby
+HOST-SUFFIX,emby.wtf,Emby
