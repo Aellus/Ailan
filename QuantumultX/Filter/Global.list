@@ -94,7 +94,7 @@ USER-AGENT,AwemeI18n*,Global
 USER-AGENT,Coinbase*,Global
 USER-AGENT,Instagram*,Global
 USER-AGENT,Resilio Sync*,Global
-USER-AGENT,WhatsApp*,Global
+
 
 # > Line
 HOST-SUFFIX,lin.ee,Global
@@ -711,7 +711,6 @@ HOST-KEYWORD,github,Global
 HOST-KEYWORD,instagram,Global
 HOST-KEYWORD,porn,Global
 HOST-KEYWORD,twitter,Global
-HOST-KEYWORD,whatsapp,Global
 HOST-KEYWORD,google,Global
 HOST-SUFFIX,1e100.net,Global
 HOST-SUFFIX,2mdn.net,Global
