@@ -4,7 +4,7 @@ payload:
   - DOMAIN,outlook.office365.com
   - DOMAIN,smtp-mail.outlook.com
   - DOMAIN,smtp.office365.com
-# OneDrive
+  # OneDrive
   - PROCESS-NAME,OneDrive
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,onedrive.com
