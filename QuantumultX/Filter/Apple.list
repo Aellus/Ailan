@@ -42,7 +42,7 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-IP-CIDR,17.0.0.0/8,Apple,no-resolve
+
 
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.cn,Apple
@@ -51,7 +51,6 @@ DOMAIN-SUFFIX,apple.com.cn,Apple
 DOMAIN-SUFFIX,apple.com.cdn20.com,Apple
 DOMAIN-SUFFIX,apple.com.mwcloudcdn.com,Apple
 DOMAIN-SUFFIX,apple.com.mwcname.com,Apple
-DOMAIN-SUFFIX,apple.news,Apple
 DOMAIN-SUFFIX,appsto.re,Apple
 DOMAIN-SUFFIX,appstore.com,Apple
 DOMAIN-SUFFIX,cdn-apple.com,Apple
