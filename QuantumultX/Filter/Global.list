@@ -24,6 +24,14 @@ HOST-SUFFIX,windows.com,Global
 HOST-SUFFIX,windows.net,Global
 HOST-SUFFIX,xbox.com,Global
 HOST-SUFFIX,xboxlive.com,Global
+HOST-SUFFIX,skype.com,Global
+HOST-SUFFIX,storage.live.com,Global
+HOST-SUFFIX,storage.msn.com,Global
+
+# > OneDrive
+USER-AGENT,OneDrive*,Global
+HOST-KEYWORD,onedrive,Global
+HOST-SUFFIX,onedrive.com,Global
 
 # > Google
 DOMAIN-SUFFIX,ampproject.org,Global
@@ -95,7 +103,6 @@ USER-AGENT,Coinbase*,Global
 USER-AGENT,Instagram*,Global
 USER-AGENT,Resilio Sync*,Global
 
-
 # > Line
 HOST-SUFFIX,lin.ee,Global
 HOST-SUFFIX,line.me,Global
@@ -118,10 +125,13 @@ IP-CIDR,203.104.128.0/20,Global,no-resolve
 IP-CIDR,203.174.66.64/26,Global,no-resolve
 IP-CIDR,203.174.77.0/24,Global,no-resolve
 
-
-# > OneDrive
-USER-AGENT,OneDrive*,Global
-HOST-SUFFIX,onedrive.com,Global
+# > Tencent WeChat (International)
+IP-CIDR,101.32.96.0/20,Outside
+IP-CIDR,101.32.104.0/21,Outside
+IP-CIDR,101.32.118.0/23,Outside
+IP-CIDR,129.226.0.0/16,Outside
+IP-CIDR,183.128.0.0/11,Outside
+IP-CIDR,183.131.48.0/20,Outside
 
 # > Spark
 HOST-SUFFIX,api.amplitude.com,Global
@@ -143,6 +153,19 @@ HOST-SUFFIX,musical.ly,Global
 HOST-SUFFIX,tiktokv.com,Global
 HOST-SUFFIX,tiktokcdn.com,Global
 HOST-KEYWORD,-tiktokcdn-com,Global
+HOST-KEYWORD,tiktokcdn-,Global
+HOST-KEYWORD,tiktok,Global
+HOST,p16-tiktokcdn-com.akamaized.net,Global
+HOST-SUFFIX,byteoversea.com,Global
+HOST-SUFFIX,ibytedtos.com,Global
+HOST-SUFFIX,ibyteimg.com,Global
+HOST-SUFFIX,ipstatp.com,Global
+HOST-SUFFIX,muscdn.com,Global
+HOST-SUFFIX,sgpstatp.com,Global
+HOST-SUFFIX,tik-tokapi.com,Global
+
+# > Tesla
+HOST-KEYWORD,tesla,Global
 
 # > Zooba
 USER-AGENT,battleroyale*,Global
