@@ -6,9 +6,6 @@
 软件地址：https://apps.apple.com/cn/app/nomo-cam-%E4%BD%A0%E7%9A%84%E6%8B%8D%E7%AB%8B%E5%BE%97/id1362548649
 脚本作者：Hausd0rff
 更新时间：2022-01-06
-获取帮助：公众号：404Lab 
-电报频道：https://t.me/EnjoyDigitalLife
-使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 *******************************
 
