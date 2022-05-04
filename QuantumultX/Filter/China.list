@@ -190,9 +190,6 @@ HOST-SUFFIX,rrmj.tv,China
 HOST-SUFFIX,ruguoapp.com,China
 HOST-SUFFIX,sandai.net,China
 HOST-SUFFIX,sf-express.com,China
-HOST-SUFFIX,sinaapp.com,China
-HOST-SUFFIX,sinaimg.cn,China
-HOST-SUFFIX,sinaimg.com,China
 HOST-SUFFIX,sm.ms,China
 HOST-SUFFIX,smartisan.com,China
 HOST-SUFFIX,snwx.com,China
@@ -393,10 +390,6 @@ USER-AGENT,NeteaseMusic*,China
 DOMAIN-SUFFIX,music.126.net,China
 DOMAIN-SUFFIX,music.163.com,China
 
-# > Sina
-HOST-SUFFIX,sina.com,China
-HOST-SUFFIX,weibo.com,China
-HOST-SUFFIX,weibocdn.com,China
 # > Sohu
 HOST-SUFFIX,sohu.com,China
 HOST-SUFFIX,sohucs.com,China
