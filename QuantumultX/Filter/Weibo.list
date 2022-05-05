@@ -1,40 +1,32 @@
-# > Sina
-HOST-KEYWORD,weibo,Sina
-HOST-SUFFIX,weibo.cn,Sina
-HOST-SUFFIX,weibo.com,Sina
-HOST-SUFFIX,sinaimg.cn,Sina
-HOST-SUFFIX,sina.com,Sina
-HOST-SUFFIX,weibocdn.com,Sina
-HOST-SUFFIX,sinaapp.com,Sina
-HOST-SUFFIX,sinaimg.cn,Weibo
-HOST-SUFFIX,sinaimg.com,Weibo
-HOST-SUFFIX,weibo.cn,Weibo
-HOST-SUFFIX,weico.cc,Weibo
-
 # > Weibo
 host-keyword,weibo,Weibo
-host-suffix,weibo.com,Weibo
-host-suffix,weibo.cn,Weibo
+HOST-SUFFIX,weibo.com,Weibo
+HOST-SUFFIX,weibo.cn,Weibo
+HOST-SUFFIX,weico.cc,Weibo
+HOST-SUFFIX,weibocdn.com,Weibo
 
 # > Weibo Api
-host-suffix,api.weibo.cn,Weibo
-host-suffix,api.weibo.com,Weibo
-host-suffix,dns.weibo.cn,Weibo
+HOST-SUFFIX,api.weibo.cn,Weibo
+HOST-SUFFIX,api.weibo.com,Weibo
+HOST-SUFFIX,dns.weibo.cn,Weibo
 
 # > Weibo CDN
-host-suffix,weibocdn.com,Weibo
+HOST-SUFFIX,weibocdn.com,Weibo
 
 # > Weibo Client & SDK
-host-suffix,wbapp.mobile.sina.cn,Reject
-host-suffix,sdkapp.mobile.sina.cn,Reject
+HOST-SUFFIX,wbapp.mobile.sina.cn,Weibo
+HOST-SUFFIX,sdkapp.mobile.sina.cn,Weibo
 
 # > Weibo Img
-host-suffix,sinajs.cn,Weibo
-host-suffix,vip.storage.weibo.com,Weibo
-host-suffix,simg.s.weibo.com,Weibo
-host-suffix,sinaimg.cn,Weibo
-host-suffix,miaozhen.com,Weibo
-host-suffix,data.kuiniuca.com,Weibo
+HOST-SUFFIX,sinajs.cn,Weibo
+HOST-SUFFIX,vip.storage.weibo.com,Weibo
+HOST-SUFFIX,simg.s.weibo.com,Weibo
+HOST-SUFFIX,miaozhen.com,Weibo
+HOST-SUFFIX,data.kuiniuca.com,Weibo
+HOST-SUFFIX,sina.com,Weibo
+HOST-SUFFIX,sinaapp.com,Weibo
+HOST-SUFFIX,sinaimg.cn,Weibo
+HOST-SUFFIX,sinaimg.com,Weibo
 
 # > Weibo Live
-host-suffix,live.weibo.com,Weibo
+HOST-SUFFIX,live.weibo.com,Weibo
