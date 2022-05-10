@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 #calm
-#^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
+#^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/Aellus/Ailen/master/QuantumultX/Script/calm.js
 #hostname = api.calm.com, www.calm.com
 
 obj["subscription"]= {
