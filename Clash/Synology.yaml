@@ -1,9 +1,9 @@
 payload:
   # Synology
-  DOMAIN-KEYWORD,quickconnect
-  DOMAIN-KEYWORD,synology
-  DOMAIN-SUFFIX,quickconnect.to
-  DOMAIN-SUFFIX,quickconnect.cn
-  DOMAIN-SUFFIX,synology.cn
-  DOMAIN-SUFFIX,synology.com
-  DOMAIN-SUFFIX,synology.me
+  - DOMAIN-KEYWORD,quickconnect
+  - DOMAIN-KEYWORD,synology
+  - DOMAIN-SUFFIX,quickconnect.to
+  - DOMAIN-SUFFIX,quickconnect.cn
+  - DOMAIN-SUFFIX,synology.cn
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,synology.me
