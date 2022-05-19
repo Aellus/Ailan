@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,GLoBAl.QuickCONNEct.to
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,quickconnect.cn
+  - DOMAIN-SUFFIX,quickconnect.com
   - DOMAIN-SUFFIX,synology.cn
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,synology.me
