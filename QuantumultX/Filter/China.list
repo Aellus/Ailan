@@ -305,7 +305,7 @@ IP-CIDR,119.176.0.0/12,China,no-resolve
 DOMAIN-SUFFIX,api.mob.app.letv.com,China
 
 # > MOO
-USER-AGENT,MOO*,DIRECT
+USER-AGENT,MOO*,China
 USER-AGENT,TencentMidasConnect*,China
 
 # > Tencent Video
