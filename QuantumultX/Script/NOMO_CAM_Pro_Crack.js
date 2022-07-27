@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > NoMo Cam解锁订阅
-^https?:\/\/nomo\.dafork\.com\/api\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
+^https?:\/\/nomo\.dafork\.com\/api\/.+ url script-request-header https://raw.githubusercontent.com/Aellus/Ailen/master/QuantumultX/Script/NOMO_CAM_Pro_Crack.js
 
 [mitm] 
 hostname = nomo.dafork.com
