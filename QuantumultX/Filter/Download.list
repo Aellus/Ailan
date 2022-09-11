@@ -1,0 +1,20 @@
+# Mac Download
+PROCESS-NAME,aria2c,Download
+PROCESS-NAME,fdm,Download
+PROCESS-NAME,Folx,Download
+PROCESS-NAME,NetTransport,Download
+PROCESS-NAME,Thunder,Download
+PROCESS-NAME,Transmission,Download
+PROCESS-NAME,uTorrent,Download
+PROCESS-NAME,WebTorrent,Download
+PROCESS-NAME,WebTorrent Helper,Download
+PROCESS-NAME,DownloadService,Download
+PROCESS-NAME,Weiyun,Download
+
+# bt
+DOMAIN-KEYWORD,aria2,Download
+DOMAIN-KEYWORD,xunlei,Download
+DOMAIN-KEYWORD,yunpan,Download
+DOMAIN-KEYWORD,Thunder,Download
+DOMAIN-KEYWORD,XLLiveUD,Download
+URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=),Download
