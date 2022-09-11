@@ -7,26 +7,35 @@ HOST-SUFFIX,gateway.icloud.com,Apple
 HOST-SUFFIX,news-edge.apple.com,Apple
 HOST-SUFFIX,news-events.apple.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
+
 # News+ Audio
 HOST-SUFFIX,news-assets.apple.com,Apple
 
-USER-AGENT,*com.apple.mobileme.fmip1,Apple
+USER-AGENT,*com.apple.mobileme.fmip1*,Apple
 USER-AGENT,*WeatherFoundation*,Apple
 USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
 USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
 USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
 USER-AGENT,AppStore*,Apple
-USER-AGENT,com.apple.appstored*,Apple
-USER-AGENT,com.apple.geod*,Apple
-USER-AGENT,com.apple.Maps,Apple
-USER-AGENT,FindMy*,Apple
+USER-AGENT,AppleNews*,Apple
+USER-AGENT,AppleTV*,Apple
 USER-AGENT,FMDClient*,Apple
 USER-AGENT,FMFD*,Apple
+USER-AGENT,FindMy*,Apple
+USER-AGENT,Maps*,Apple
+USER-AGENT,Music*,Apple
+USER-AGENT,TestFlight*,Apple
+USER-AGENT,com.apple.Maps*,Apple
+USER-AGENT,com.apple.appstored*,Apple
+USER-AGENT,com.apple.geod*,Apple
+USER-AGENT,com.apple.news*,Apple
+USER-AGENT,com.apple.trustd*,Apple
+USER-AGENT,com.apple.tv*,Apple
+
 USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
-USER-AGENT,Maps*,Apple
-USER-AGENT,TestFlight*,Apple
+
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
 HOST-SUFFIX,apple.com.cn,Apple
@@ -43,7 +52,6 @@ HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 
-
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.cn,Apple
 DOMAIN-SUFFIX,apple.com,Apple
@@ -51,6 +59,7 @@ DOMAIN-SUFFIX,apple.com.cn,Apple
 DOMAIN-SUFFIX,apple.com.cdn20.com,Apple
 DOMAIN-SUFFIX,apple.com.mwcloudcdn.com,Apple
 DOMAIN-SUFFIX,apple.com.mwcname.com,Apple
+DOMAIN-SUFFIX,apple.news,Apple
 DOMAIN-SUFFIX,appsto.re,Apple
 DOMAIN-SUFFIX,appstore.com,Apple
 DOMAIN-SUFFIX,cdn-apple.com,Apple
@@ -73,6 +82,7 @@ DOMAIN-SUFFIX,apple,Apple
 DOMAIN-KEYWORD,icloud,Apple
 DOMAIN-KEYWORD,testflight,Apple
 DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+
 IP-CIDR,139.178.128.0/18,Apple,no-resolve
 IP-CIDR,144.178.0.0/19,Apple,no-resolve
 IP-CIDR,144.178.36.0/22,Apple,no-resolve
@@ -83,6 +93,11 @@ IP-CIDR,205.180.175.0/24,Apple,no-resolve
 IP-CIDR,63.92.224.0/19,Apple,no-resolve
 IP-CIDR,65.199.22.0/23,Apple,no-resolve
 IP-CIDR,17.0.0.0/8,Apple,no-resolve
+IP-CIDR6,2403:300::/32,Apple,no-resolve
+IP-CIDR6,2620:149::/32,Apple,no-resolve
+IP-CIDR6,2a01:b740::/32,Apple,no-resolve
+IP-CIDR6,2a01:b747::/32,Apple,no-resolve
+
 USER-AGENT,AppleTV*,Apple
 USER-AGENT,Music*,Apple
 USER-AGENT,com.apple.trustd*,Apple
@@ -94,4 +109,4 @@ USER-AGENT,AppleNews*,Apple
 USER-AGENT,com.apple.news*,Apple
 HOST-SUFFIX,apple.news,Apple
 DOMAIN,news-client.apple.com,Apple
-
+DOMAIN,apple.comscoreresearch.com,Apple
