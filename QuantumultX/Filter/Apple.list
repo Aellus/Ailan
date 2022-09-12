@@ -93,7 +93,7 @@ IP-CIDR,205.180.175.0/24,Apple,no-resolve
 IP-CIDR,63.92.224.0/19,Apple,no-resolve
 IP-CIDR,65.199.22.0/23,Apple,no-resolve
 IP-CIDR,17.0.0.0/8,Apple,no-resolve
-IP-CIDR6,2403:300::/32,Apple,no-resolve
+#IP-CIDR6,2403:300::/32,Apple,no-resolve
 IP-CIDR6,2620:149::/32,Apple,no-resolve
 IP-CIDR6,2a01:b740::/32,Apple,no-resolve
 IP-CIDR6,2a01:b747::/32,Apple,no-resolve
