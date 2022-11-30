@@ -129,7 +129,6 @@ HOST-SUFFIX,res.hunantv.com,AdBlock
 HOST-SUFFIX,store.videojj.com,AdBlock
 HOST-SUFFIX,v2.da.mgtv.com,AdBlock
 HOST-SUFFIX,va.videojj.com,AdBlock
-HOST-SUFFIX,videojj.com,AdBlock
 HOST-SUFFIX,web.da.mgtv.com,AdBlock
 HOST-SUFFIX,x.da.hunantv.com,AdBlock
 HOST-SUFFIX,x.da.mgtv.com,AdBlock
@@ -520,6 +519,7 @@ HOST-SUFFIX,52lubo.cn,AdBlock
 HOST-SUFFIX,5345ll.com,AdBlock
 HOST-SUFFIX,537901.com,AdBlock
 HOST-SUFFIX,55.la,AdBlock
+HOST-SUFFIX,5534edee5a.com,AdBlock
 HOST-SUFFIX,555p555p.com,AdBlock
 HOST-SUFFIX,559gp.com,AdBlock
 HOST-SUFFIX,55lu.com,AdBlock
@@ -1416,6 +1416,7 @@ HOST-SUFFIX,am.szhome.com,AdBlock
 HOST-SUFFIX,am.zdnet.com.cn,AdBlock
 HOST-SUFFIX,am15.net,AdBlock
 HOST-SUFFIX,amazingmagics.com,AdBlock
+HOST-SUFFIX,amazon-adsystem.com,AdBlock
 HOST-SUFFIX,amdc.m.taobao.com,AdBlock
 HOST-SUFFIX,amfi.gou.sogou.com,AdBlock
 HOST-SUFFIX,amiok.org,AdBlock
@@ -1566,7 +1567,6 @@ HOST-SUFFIX,appgift.sinaapp.com,AdBlock
 HOST-SUFFIX,appjiagu.com,AdBlock
 HOST-SUFFIX,applifier.com,AdBlock
 HOST-SUFFIX,applog.uc.cn,AdBlock
-HOST-SUFFIX,applogapi.autohome.com.cn,AdBlock
 HOST-SUFFIX,applogios.uc.cn,AdBlock
 HOST-SUFFIX,app-monitor.ele.me,AdBlock
 HOST-SUFFIX,appnext.com,AdBlock
@@ -1578,6 +1578,7 @@ HOST-SUFFIX,apps.supfast.net,AdBlock
 HOST-SUFFIX,apps2.outfit7.com,AdBlock
 HOST-SUFFIX,appsdk.tanv.com,AdBlock
 HOST-SUFFIX,appservices.comcsoft.com,AdBlock
+HOST-SUFFIX,appsflyer.com,AdBlock
 HOST-SUFFIX,appspromote.wostore.cn,AdBlock
 HOST-SUFFIX,appsrv1.madserving.com,AdBlock
 HOST-SUFFIX,appsrv4.madserving.com,AdBlock
@@ -3228,6 +3229,7 @@ HOST-SUFFIX,e706.net,AdBlock
 HOST-SUFFIX,e708.net,AdBlock
 HOST-SUFFIX,e719.net,AdBlock
 HOST-SUFFIX,e9377f.com,AdBlock
+HOST-SUFFIX,ea778a21c7.com,AdBlock
 HOST-SUFFIX,eacash.streamplay.to,AdBlock
 HOST-SUFFIX,eap.big5.enorth.com.cn,AdBlock
 HOST-SUFFIX,eap.enorth.com.cn,AdBlock
@@ -3684,6 +3686,7 @@ HOST-SUFFIX,gog9.qzdfc.com,AdBlock
 HOST-SUFFIX,go-mpulse.net,AdBlock
 HOST-SUFFIX,good.ta80.com,AdBlock
 HOST-SUFFIX,googleadsserving.cn,AdBlock
+HOST-SUFFIX,googleads.g.doubleclick.net,AdBlock
 HOST-SUFFIX,googlecommerce.com,AdBlock
 HOST-SUFFIX,googlesyndication.com,AdBlock
 HOST-SUFFIX,goolpter.com,AdBlock
@@ -8110,7 +8113,6 @@ HOST-SUFFIX,zhichi08.com,AdBlock
 HOST-SUFFIX,zhidian3g.cn,AdBlock
 HOST-SUFFIX,zhifenjie.com,AdBlock
 HOST-SUFFIX,zhihei.com,AdBlock
-HOST-SUFFIX,zhihu.xmcimg.com,AdBlock
 HOST-SUFFIX,zhiong.net,AdBlock
 HOST-SUFFIX,zhiyuanteam.com,AdBlock
 HOST-SUFFIX,zhiziyun.com,AdBlock
@@ -8199,7 +8201,6 @@ HOST,mobads-logs.baidu.com,AdBlock
 HOST,nsclick.baidu.com,AdBlock
 HOST,wn.pos.baidu.com,AdBlock
 HOST,ps.map.baidu.com,AdBlock
-HOST,sv.map.baidu.com,AdBlock
 HOST,offnavi.map.baidu.com,AdBlock
 HOST,newvector.map.baidu.com,AdBlock
 HOST,ulog.imap.baidu.com,AdBlock
@@ -8231,16 +8232,21 @@ HOST,wr.da.netease.com,AdBlock
 HOST,yt-adp.nosdn.127.net,AdBlock
 
 # > Zhihu
+HOST,appcloud2.in.zhihu.com,AdBlock
 HOST,mqtt.zhihu.com,AdBlock
 HOST,sugar.zhihu.com,AdBlock
 HOST,zhihu-analytics.zhihu.com,AdBlock
 HOST,zhihu-web-analytics.zhihu.com,AdBlock
+HOST,118.89.204.198,AdBlock
 HOST-SUFFIX,xdrig.com,AdBlock
-
+HOST-SUFFIX,zhihu.xmcimg.com,AdBlock
 IP-CIDR,39.107.15.115/32,AdBlock
 IP-CIDR,47.89.59.182/32,AdBlock
 IP-CIDR,103.49.209.27/32,AdBlock
+IP-CIDR,118.89.204.198/32,AdBlock
 IP-CIDR,123.56.152.96/32,AdBlock
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,AdBlock
+USER-AGENT,AVOS*,AdBlock
 
 # > China Net
 IP-CIDR,61.160.200.223/32,AdBlock
