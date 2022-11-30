@@ -193,3 +193,5 @@ payload:
   - USER-AGENT,AppleTV*
   - USER-AGENT,com.apple.trustd*
   - USER-AGENT,com.apple.tv*
+  # > Apple Maps
+  - PROCESS-NAME,com.apple.geod
