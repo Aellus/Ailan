@@ -60,7 +60,7 @@ HOST-SUFFIX,gamer.com.tw,GMedia
 HOST,gamer-cds.cdn.hinet.net,GMedia
 HOST,gamer2-cds.cdn.hinet.net,GMedia
 
-# > BBC
+# > BBC iPlayer
 USER-AGENT,BBCiPlayer*,GMedia
 HOST-KEYWORD,bbcfmt,GMedia
 HOST,aod-dash-uk-live.akamaized.net,GMedia
