@@ -19,10 +19,21 @@ USER-AGENT,AppleNews*,Apple
 USER-AGENT,com.apple.news*,Apple
 HOST-SUFFIX,apple.news,Apple
 DOMAIN,news-client.apple.com,Apple
-
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-SUFFIX,aaplimg.com,Apple
+
+# > Apple Music
+USER-AGENT,Music*,Apple
+HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,blobstore.apple.com,Apple
+HOST-SUFFIX,music.apple.com,Apple
+HOST,aod.itunes.apple.com,Apple
+HOST,aod-ssl.itunes.apple.com,Apple
+HOST,audio.itunes.apple.com,Apple
+HOST,audio-ssl.itunes.apple.com,Apple
+HOST,mvod.itunes.apple.com,Apple
+HOST,streamingaudio.itunes.apple.com,Apple
 
 USER-AGENT,*com.apple.mobileme.fmip1*,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -45,10 +56,10 @@ USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
 USER-AGENT,com.apple.tv*,Apple
 
+# > 
 USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
-
 HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,applemusic.com,Apple
