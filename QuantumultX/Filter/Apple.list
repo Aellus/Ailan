@@ -1,15 +1,28 @@
 # > Apple
 
-# > iCloud
+# iCloud
 HOST-SUFFIX,gateway.icloud.com,Apple
+DOMAIN,www-cdn.icloud.com.akadns.net,Apple
+DOMAIN-KEYWORD,icloud,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
 
-# > Apple News
+# Apple News
 HOST-SUFFIX,news-edge.apple.com,Apple
 HOST-SUFFIX,news-events.apple.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
-
-# News+ Audio
 HOST-SUFFIX,news-assets.apple.com,Apple
+
+# > Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,Apple
+USER-AGENT,AppleNews*,Apple
+USER-AGENT,com.apple.news*,Apple
+HOST-SUFFIX,apple.news,Apple
+DOMAIN,news-client.apple.com,Apple
+
+HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-SUFFIX,aaplimg.com,Apple
 
 USER-AGENT,*com.apple.mobileme.fmip1*,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -36,6 +49,12 @@ USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
 
+HOST-SUFFIX,apple-livephotoskit.com,Apple
+HOST-SUFFIX,apple-mapkit.com,Apple
+HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,apzones.com,Apple
+HOST-SUFFIX,appsto.re,Apple
+
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
 HOST-SUFFIX,apple.com.cn,Apple
@@ -50,7 +69,6 @@ HOST-SUFFIX,itunes.com,Apple
 HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
-DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.cn,Apple
@@ -79,7 +97,6 @@ DOMAIN-SUFFIX,me.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN-SUFFIX,apple,Apple
 
-DOMAIN-KEYWORD,icloud,Apple
 DOMAIN-KEYWORD,testflight,Apple
 DOMAIN-KEYWORD,apple.com.akadns.net,Apple
 
@@ -102,11 +119,3 @@ USER-AGENT,AppleTV*,Apple
 USER-AGENT,Music*,Apple
 USER-AGENT,com.apple.trustd*,Apple
 USER-AGENT,com.apple.tv*,Apple
-
-# > Apple News and Apple Map TOMTOM Version
-DOMAIN,gspe1-ssl.ls.apple.com,Apple
-USER-AGENT,AppleNews*,Apple
-USER-AGENT,com.apple.news*,Apple
-HOST-SUFFIX,apple.news,Apple
-DOMAIN,news-client.apple.com,Apple
-DOMAIN,apple.comscoreresearch.com,Apple
