@@ -7,6 +7,19 @@ DOMAIN-KEYWORD,icloud,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
 
+# iCloud
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
+DOMAIN-SUFFIX,apzones.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,gc.apple.com,Apple
+DOMAIN-SUFFIX,icloud.apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,iwork.apple.com,Apple
+DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+
 # Apple News
 HOST-SUFFIX,news-edge.apple.com,Apple
 HOST-SUFFIX,news-events.apple.com,Apple
@@ -23,6 +36,14 @@ HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX,apps.apple.com,Apple
+DOMAIN-SUFFIX,itunes.apple.com,Apple
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,ppq.apple.com,Apple
+
 # > Apple Music
 USER-AGENT,Music*,Apple
 HOST-SUFFIX,applemusic.com,Apple
@@ -37,6 +58,63 @@ HOST,streamingaudio.itunes.apple.com,Apple
 HOST-SUFFIX,itunes.com,Apple
 DOMAIN-SUFFIX,itunes.com.edgekey.net,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
+
+# > App Store Connect
+DOMAIN,appstoreconnect.apple.com,Apple
+DOMAIN,iosapps-ssl.itunes.apple.com,Apple
+DOMAIN,itcmobile.itunes.apple.com,Apple
+
+# > iCloud email
+DOMAIN-SUFFIX,mail.icloud.com.cn,iCloudMail
+DOMAIN-SUFFIX,mail.me.com,iCloudMail
+
+# TV
+USER-AGENT,AppleTV*,Apple
+USER-AGENT,com.apple.tv*,Apple
+DOMAIN-SUFFIX,tv.apple.com,Apple
+DOMAIN,hls.itunes.apple.com,Apple
+DOMAIN,hls-amt.itunes.apple.com,Apple
+DOMAIN,play-edge.itunes.apple.com,Apple
+DOMAIN,tv.applemusic.com,Apple
+DOMAIN,uts-api.itunes.apple.com,Apple
+
+# Apple Books
+DOMAIN,buy.itunes.apple.com,Apple
+DOMAIN-SUFFIX,books.apple.com,Apple
+DOMAIN,books.itunes.apple.com,Apple
+DOMAIN,bookkeeper.itunes.apple.com,Apple
+DOMAIN,books-analytics-events.apple.com,Apple
+
+# Fitness+
+DOMAIN,hls-svod.itunes.apple.com,Apple
+DOMAIN,amp-api.fitness.apple.com,Apple
+
+# Software Update
+# > macOS updates
+DOMAIN,configuration.apple.com,Apple
+DOMAIN,gnf-mdn.apple.com,Apple
+DOMAIN,gnf-mr.apple.com,Apple
+DOMAIN,gs.apple.com,Apple
+DOMAIN,ig.apple.com,Apple
+DOMAIN,skl.apple.com,Apple
+DOMAIN,swcdn.apple.com,Apple
+DOMAIN,swdist.apple.com,Apple
+DOMAIN,swdownload.apple.com,Apple
+DOMAIN,swpost.apple.com,Apple
+DOMAIN,swscan.apple.com,Apple
+# > macOS Recovery
+DOMAIN,oscdn.apple.com,Apple
+DOMAIN,osrecovery.apple.com,Apple
+# > iOS, iPadOS, and watchOS updates
+DOMAIN,appldnld.apple.com,Apple
+DOMAIN,ns.itunes.apple.com,Apple
+# > iOS, iPadOS, tvOS, watchOS, and macOS updates
+DOMAIN,gg.apple.com,Apple
+DOMAIN,gdmf.apple.com,Apple
+DOMAIN,mesu.apple.com,Apple
+DOMAIN,updates.cdn-apple.com,Apple
+DOMAIN,updates-http.cdn-apple.com,Apple
+DOMAIN,xp.apple.com,Apple
 
 # > 
 USER-AGENT,*com.apple.mobileme.fmip1*,Apple
