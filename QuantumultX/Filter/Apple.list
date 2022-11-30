@@ -1,13 +1,9 @@
+
 # > Apple
 
 # iCloud
 HOST-SUFFIX,gateway.icloud.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-DOMAIN-KEYWORD,icloud,Apple
-HOST-KEYWORD,icloud.com.akadns.net,Apple
-HOST-KEYWORD,icloud.com.akadns.net,Apple
-
-# iCloud
 DOMAIN-SUFFIX,apple-cloudkit.com,Apple
 DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
 DOMAIN-SUFFIX,apzones.com,Apple
@@ -15,6 +11,7 @@ DOMAIN-SUFFIX,cdn-apple.com,Apple
 DOMAIN-SUFFIX,gc.apple.com,Apple
 DOMAIN-SUFFIX,icloud.apple.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-KEYWORD,icloud,Apple
 DOMAIN-SUFFIX,icloud.com.cn,Apple
 DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN-SUFFIX,iwork.apple.com,Apple
