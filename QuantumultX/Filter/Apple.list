@@ -61,8 +61,8 @@ DOMAIN,iosapps-ssl.itunes.apple.com,Apple
 DOMAIN,itcmobile.itunes.apple.com,Apple
 
 # > iCloud email
-DOMAIN-SUFFIX,mail.icloud.com.cn,iCloudMail
-DOMAIN-SUFFIX,mail.me.com,iCloudMail
+DOMAIN-SUFFIX,mail.icloud.com.cn,Apple
+DOMAIN-SUFFIX,mail.me.com,Apple
 
 # TV
 USER-AGENT,AppleTV*,Apple
