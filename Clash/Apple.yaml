@@ -61,8 +61,8 @@ payload:
   - DOMAIN,itcmobile.itunes.apple.com
 
   # > iCloud email
-  - DOMAIN-SUFFIX,mail.icloud.com.cn,iClo
-  - DOMAIN-SUFFIX,mail.me.com,iClo
+  - DOMAIN-SUFFIX,mail.icloud.com.cn
+  - DOMAIN-SUFFIX,mail.me.com
 
   # TV
   - USER-AGENT,AppleTV*
