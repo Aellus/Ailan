@@ -33,6 +33,7 @@ HOST-SUFFIX,storage.live.com,Global
 HOST-SUFFIX,storage.msn.com,Global
 
 # > Google
+DOMAIN-SUFFIX,googleapis.com,Global
 DOMAIN-SUFFIX,ampproject.org,Global
 DOMAIN-SUFFIX,abc.xyz,Global
 DOMAIN-SUFFIX,android.com,Global
@@ -83,6 +84,47 @@ DOMAIN-SUFFIX,ytimg.com,Global
 DOMAIN-SUFFIX,google.cn,Global
 IP-CIDR,173.194.0.0/16,Global
 IP-CIDR,74.125.0.0/16,Global
+
+# > Google FCM
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+DOMAIN,mtalk.google.com
+IP-CIDR,64.233.177.188/32,no-resolve
+IP-CIDR,64.233.186.188/32,no-resolve
+IP-CIDR,64.233.187.188/32,no-resolve
+IP-CIDR,64.233.188.188/32,no-resolve
+IP-CIDR,64.233.189.188/32,no-resolve
+IP-CIDR,74.125.23.188/32,no-resolve
+IP-CIDR,74.125.24.188/32,no-resolve
+IP-CIDR,74.125.28.188/32,no-resolve
+IP-CIDR,74.125.127.188/32,no-resolve
+IP-CIDR,74.125.137.188/32,no-resolve
+IP-CIDR,74.125.203.188/32,no-resolve
+IP-CIDR,74.125.204.188/32,no-resolve
+IP-CIDR,74.125.206.188/32,no-resolve
+IP-CIDR,108.177.125.188/32,no-resolve
+IP-CIDR,142.250.4.188/32,no-resolve
+IP-CIDR,142.250.10.188/32,no-resolve
+IP-CIDR,142.250.31.188/32,no-resolve
+IP-CIDR,142.250.96.188/32,no-resolve
+IP-CIDR,172.217.194.188/32,no-resolve
+IP-CIDR,172.217.218.188/32,no-resolve
+IP-CIDR,172.217.219.188/32,no-resolve
+IP-CIDR,172.253.63.188/32,no-resolve
+IP-CIDR,172.253.122.188/32,no-resolve
+IP-CIDR,173.194.175.188/32,no-resolve
+IP-CIDR,173.194.218.188/32,no-resolve
+IP-CIDR,209.85.233.188/32,no-resolve
+
+# > Google
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
 
 # > Google Voice
 HOST,lens.l.google.com,Global
@@ -872,7 +914,63 @@ HOST-SUFFIX,zeutch.com,Global
 HOST-SUFFIX,zynamics.com,Global
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
-USER-AGENT,WhatsApp*,Global
+
+USER-AGENT,WhatsApp*
+DOMAIN-KEYWORD,appledaily
+DOMAIN-KEYWORD,beetalk
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,akamai.net
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,autodraw.com
+DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,blogblog.com
+DOMAIN-SUFFIX,chromeexperiments.com
+DOMAIN-SUFFIX,creativelab5.com
+DOMAIN-SUFFIX,crittercism.com
+DOMAIN-SUFFIX,culturalspot.org
+DOMAIN-SUFFIX,dartlang.org
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gosetsuden.jp
+DOMAIN-SUFFIX,gwtproject.org
+DOMAIN-SUFFIX,hackmd.io
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,html5rocks.com
+DOMAIN-SUFFIX,keyhole.com
+DOMAIN-SUFFIX,kobo.com
+DOMAIN-SUFFIX,kobobooks.com
+DOMAIN-SUFFIX,madewithcode.com
+DOMAIN-SUFFIX,material.io
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,netmarble.com
+DOMAIN-SUFFIX,nianticlabs.com
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,pubnub.com
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,toggleable.com
+DOMAIN-SUFFIX,torproject.org
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,unfiltered.news
+DOMAIN-SUFFIX,waveprotocol.org
+DOMAIN-SUFFIX,webmproject.org
+DOMAIN-SUFFIX,webrtc.org
 
 HOST-KEYWORD,appledaily,Global
 HOST-KEYWORD,beetalk,Global
