@@ -1,24 +1,24 @@
 # Vodafone
-HOST-KEYWORD,vodafone,EBank
-HOST-SUFFIX,vodafone.co.uk,EBank
-HOST-SUFFIX,co.uk,EBank
+HOST-KEYWORD,vodafone
+DOMAIN-SUFFIX,vodafone.co.uk
+DOMAIN-SUFFIX,co.uk
 
 # N26
-HOST-KEYWORD,tech26,EBank
-HOST-KEYWORD,n26,EBank
-HOST-KEYWORD,number26,EBank
-HOST-SUFFIX,tech26.de,EBank
-HOST-SUFFIX,number26.de,EBank
+HOST-KEYWORD,tech26
+HOST-KEYWORD,n26
+HOST-KEYWORD,number26
+DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,number26.de
 
 # Wise
-HOST-KEYWORD,wise,EBank
-HOST-SUFFIX,wise.com,EBank
+HOST-KEYWORD,wise
+DOMAIN-SUFFIX,wise.com
 
 # Oldubil
-HOST-KEYWORD,oldubil,EBank
-HOST-SUFFIX,oldubil.colendilabs.com,EBank
-HOST-SUFFIX,colendilabs.com,EBank
+HOST-KEYWORD,oldubil
+DOMAIN-SUFFIX,oldubil.colendilabs.com
+DOMAIN-SUFFIX,colendilabs.com
 
 # Ozan
-HOST-KEYWORD,Ozan,EBank
-HOST-SUFFIX,Ozan.com,EBank
+HOST-KEYWORD,Ozan
+DOMAIN-SUFFIX,Ozan.com
