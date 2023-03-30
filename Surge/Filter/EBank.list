@@ -1,24 +1,15 @@
 # Vodafone
-HOST-KEYWORD,vodafone
+DOMAIN-KEYWORD,vodafone
 DOMAIN-SUFFIX,vodafone.co.uk
 DOMAIN-SUFFIX,co.uk
 
 # N26
-HOST-KEYWORD,tech26
-HOST-KEYWORD,n26
-HOST-KEYWORD,number26
+DOMAIN-KEYWORD,tech26
+DOMAIN-KEYWORD,n26
+DOMAIN-KEYWORD,number26
 DOMAIN-SUFFIX,tech26.de
 DOMAIN-SUFFIX,number26.de
 
 # Wise
-HOST-KEYWORD,wise
+DOMAIN-KEYWORD,wise
 DOMAIN-SUFFIX,wise.com
-
-# Oldubil
-HOST-KEYWORD,oldubil
-DOMAIN-SUFFIX,oldubil.colendilabs.com
-DOMAIN-SUFFIX,colendilabs.com
-
-# Ozan
-HOST-KEYWORD,Ozan
-DOMAIN-SUFFIX,Ozan.com
