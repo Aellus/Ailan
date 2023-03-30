@@ -13,12 +13,3 @@ HOST-SUFFIX,number26.de,EBank
 # Wise
 HOST-KEYWORD,wise,EBank
 HOST-SUFFIX,wise.com,EBank
-
-# Oldubil
-HOST-KEYWORD,oldubil,EBank
-HOST-SUFFIX,oldubil.colendilabs.com,EBank
-HOST-SUFFIX,colendilabs.com,EBank
-
-# Ozan
-HOST-KEYWORD,Ozan,EBank
-HOST-SUFFIX,Ozan.com,EBank
