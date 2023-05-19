@@ -383,8 +383,8 @@ HOST-SUFFIX,yt.be,GMedia
 HOST-SUFFIX,yt3.ggpht.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
 
-PROCESS-NAME,com.google.android.youtube,GMedia
-PROCESS-NAME,com.google.android.youtube.tv,GMedia
+HOST-SUFFIX,com.google.android.youtube,GMedia
+HOST-SUFFIX,com.google.android.youtube.tv,GMedia
 DOMAIN-SUFFIX,googlevideo.com,GMedia
 DOMAIN-SUFFIX,gvt1.com,GMedia
 DOMAIN-SUFFIX,video.google.com,GMedia
