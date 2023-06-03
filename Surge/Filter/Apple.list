@@ -27,107 +27,31 @@ IP-CIDR,205.180.175.0/24,no-resolve
 # > Apple News
 DOMAIN-SUFFIX,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
-
-# > Apple Maps
-PROCESS-NAME,com.apple.geod
-
-# This ruleset includes 99% of apple inc network connections(global). If there are any missing, please PR.
-
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,apple.com.cdn20.com
-DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
-DOMAIN-SUFFIX,apple.com.mwcname.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,itunes.com.edgekey.net
-DOMAIN-SUFFIX,apple.com.edgekey.net
-DOMAIN-SUFFIX,apple-support.akadns.net
-DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,apple
-
-DOMAIN,apple.comscoreresearch.com
-
-DOMAIN-KEYWORD,icloud
-DOMAIN-KEYWORD,testflight
-DOMAIN-KEYWORD,apple.com.akadns.net
-
-IP-CIDR,139.178.128.0/18,no-resolve
-IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,144.178.36.0/22,no-resolve
-IP-CIDR,144.178.48.0/20,no-resolve
-IP-CIDR,192.35.50.0/24,no-resolve
-IP-CIDR,198.183.17.0/24,no-resolve
-IP-CIDR,205.180.175.0/24,no-resolve
-IP-CIDR,63.92.224.0/19,no-resolve
-IP-CIDR,65.199.22.0/23,no-resolve
-IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR6,2403:300::/32,no-resolve
-IP-CIDR6,2620:149::/32,no-resolve
-IP-CIDR6,2a01:b740::/32,no-resolve
-IP-CIDR6,2a01:b747::/32,no-resolve
-
-
-USER-AGENT,%E5%9C%B0%E5%9B%BE*
-USER-AGENT,%E6%9F%A5%E6%89%BE*
-USER-AGENT,%E8%AE%BE%E7%BD%AE*
-USER-AGENT,*WeatherFoundation*
-USER-AGENT,*com.apple.mobileme.fmip1*
-USER-AGENT,AppStore*
-USER-AGENT,AppleNews*
-USER-AGENT,AppleTV*
-USER-AGENT,FMDClient*
-USER-AGENT,FMFD*
-USER-AGENT,FindMy*
-USER-AGENT,Maps*
-USER-AGENT,Music*
-USER-AGENT,TestFlight*
-USER-AGENT,com.apple.Maps*
-USER-AGENT,com.apple.appstored*
-USER-AGENT,com.apple.geod*
-USER-AGENT,com.apple.news*
-USER-AGENT,com.apple.trustd*
-USER-AGENT,com.apple.tv*
-USER-AGENT,fmflocatord*
-USER-AGENT,geod*
-USER-AGENT,locationd*
-
-#----Apple----
-
-# iCloud
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN,www-cdn.icloud.com.akadns.net
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,gc.apple.com
-DOMAIN-SUFFIX,icloud.apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-KEYWORD,icloud
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,iwork.apple.com
-DOMAIN-KEYWORD,icloud.com.akadns.net
-
-# Apple News
 DOMAIN-SUFFIX,news-edge.apple.com
 DOMAIN-SUFFIX,news-events.apple.com
-DOMAIN-SUFFIX,apple.comscoreresearch.com
+# > News+ Audio
+URL-REGEX,^https?:\/\/news-assets\.apple\.com\/(audio-narrative|podcast\/audio)\/.*
+# > Apple Maps
+PROCESS-NAME,com.apple.geod
+# > Apple Content caching
+# https://support.apple.com/en-us/HT210060
+IP-CIDR,17.57.21.63/32, no-resolve
+# Server registration
+DOMAIN,lcdn-registration.apple.com
+# Content caching locator service
+DOMAIN,lcdn-locator.apple.com
+#----Apple----
+# > iCloud
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,gc.apple.com
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-KEYWORD,icloud
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,iwork.apple.com
+# Apple News
 DOMAIN-SUFFIX,news-assets.apple.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,gateway.icloud.com
@@ -137,27 +61,15 @@ DOMAIN,news-client-search.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
-DOMAIN-SUFFIX,apple.news
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
-
 # > Apple News and Apple Map TOMTOM Version
-DOMAIN,gspe1-ssl.ls.apple.com
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-DOMAIN-SUFFIX,apple.news
-DOMAIN,news-client.apple.com
-DOMAIN-KEYWORD,apple.com.akadns.net
-DOMAIN-SUFFIX,aaplimg.com
-
 # App Store
 # Store content such as apps, books, and music
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN-SUFFIX,mzstatic.com
 DOMAIN,ppq.apple.com
-
 # > Apple Music
 USER-AGENT,Music*
 DOMAIN-SUFFIX,applemusic.com
@@ -169,19 +81,14 @@ DOMAIN,audio.itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itunes.com.edgekey.net
-DOMAIN-SUFFIX,itunes.com
-
 # > App Store Connect
 DOMAIN,appstoreconnect.apple.com
 DOMAIN,iosapps-ssl.itunes.apple.com
 DOMAIN,itcmobile.itunes.apple.com
-
 # > iCloud email
 DOMAIN-SUFFIX,mail.icloud.com.cn
 DOMAIN-SUFFIX,mail.me.com
-
 # TV
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
@@ -191,18 +98,15 @@ DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
-
 # Apple Books
 DOMAIN,buy.itunes.apple.com
 DOMAIN-SUFFIX,books.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,books-analytics-events.apple.com
-
 # Fitness+
 DOMAIN,hls-svod.itunes.apple.com
 DOMAIN,amp-api.fitness.apple.com
-
 # Software Update
 # > macOS updates
 DOMAIN,configuration.apple.com
@@ -229,13 +133,30 @@ DOMAIN,mesu.apple.com
 DOMAIN,updates.cdn-apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,xp.apple.com
-
-# > 
-USER-AGENT,*com.apple.mobileme.fmip1*
-USER-AGENT,*WeatherFoundation*
+# This ruleset includes 99% of apple inc network connections(global). If there are any missing, please PR.
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.com.cdn20.com
+DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
+DOMAIN-SUFFIX,apple.com.mwcname.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,apple
+DOMAIN-KEYWORD,testflight
+IP-CIDR6,2403:300::/32,no-resolve
+IP-CIDR6,2620:149::/32,no-resolve
+IP-CIDR6,2a01:b740::/32,no-resolve
+IP-CIDR6,2a01:b747::/32,no-resolve
 USER-AGENT,%E5%9C%B0%E5%9B%BE*
 USER-AGENT,%E6%9F%A5%E6%89%BE*
 USER-AGENT,%E8%AE%BE%E7%BD%AE*
+USER-AGENT,*WeatherFoundation*
+USER-AGENT,*com.apple.mobileme.fmip1*
 USER-AGENT,AppStore*
 USER-AGENT,FMDClient*
 USER-AGENT,FMFD*
@@ -249,46 +170,8 @@ USER-AGENT,com.apple.trustd*
 USER-AGENT,fmflocatord*
 USER-AGENT,geod*
 USER-AGENT,locationd*
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
+# > 
 DOMAIN,api.smoot.apple.cn
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,apple.com.cdn20.com
-DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
-DOMAIN-SUFFIX,apple.com.mwcname.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apple.com.edgekey.net
-DOMAIN-SUFFIX,apple-support.akadns.net
-DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,apple
-DOMAIN-KEYWORD,testflight
-DOMAIN-KEYWORD,apple.com.akadns.net
-
 IP-CIDR,139.178.128.0/18
 IP-CIDR,144.178.0.0/19
 IP-CIDR,144.178.36.0/22
@@ -303,8 +186,6 @@ IP-CIDR,17.0.0.0/8
 # IP-CIDR6,2620:149::/32
 # IP-CIDR6,2a01:b740::/32
 # IP-CIDR6,2a01:b747::/32
-
-
 DOMAIN,apps.apple.com
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
@@ -317,7 +198,6 @@ DOMAIN,amp-api-search-edge.apps.apple.com
 DOMAIN,amp-api.apps.apple.com
 DOMAIN,api-edge.apps.apple.com
 DOMAIN,app-site-association.cdn-apple.com
-DOMAIN,appldnld.apple.com
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,appldnld.g.aaplimg.com
 DOMAIN,apple-events.akamaized.net
@@ -326,11 +206,9 @@ DOMAIN,appleid.cdn-apple.com
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN,apps.mzstatic.com
-DOMAIN,appstoreconnect.apple.com
 DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,bag.itunes.apple.com
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
-DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,cdn-cn1.apple-mapkit.com
 DOMAIN,cdn-cn2.apple-mapkit.com
 DOMAIN,cdn-cn3.apple-mapkit.com
@@ -363,7 +241,6 @@ DOMAIN,clientflow.apple.com
 DOMAIN,clientflow.apple.com.akadns.net
 DOMAIN,cma.itunes.apple.com
 DOMAIN,communities.apple.com
-DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
 DOMAIN,courier-push-apple.com.akadns.net
 DOMAIN,crl-lb.apple.com.akadns.net
@@ -410,7 +287,6 @@ DOMAIN,init-p01st.push.apple.com
 DOMAIN,init-s01st-lb.push-apple.com.akadns.net
 DOMAIN,init-s01st.push.apple.com
 DOMAIN,init.itunes.apple.com
-DOMAIN,iosapps-ssl.itunes.apple.com
 DOMAIN,iosapps.itunes.apple.com
 DOMAIN,iosapps.itunes.g.aaplimg.com
 DOMAIN,ipcdn.apple.com
@@ -425,7 +301,6 @@ DOMAIN,is4-ssl.mzstatic.com
 DOMAIN,is4.mzstatic.com
 DOMAIN,is5-ssl.mzstatic.com
 DOMAIN,is5.mzstatic.com
-DOMAIN,itcmobile.itunes.apple.com
 DOMAIN,itunes-apple.com.akadns.net
 DOMAIN,itunesconnect.apple.com
 DOMAIN,js-cdn.music.apple.com
@@ -433,13 +308,11 @@ DOMAIN,km.support.apple.com
 DOMAIN,maps.apple.com
 DOMAIN,mesu-cdn.apple.com.akadns.net
 DOMAIN,mesu-china.apple.com.akadns.net
-DOMAIN,mesu.apple.com
 DOMAIN,music.apple.com
 DOMAIN,ocsp-lb.apple.com.akadns.net
 DOMAIN,ocsp.apple.com
 DOMAIN,ocsp2-lb.apple.com.akadns.net
 DOMAIN,ocsp2.apple.com
-DOMAIN,oscdn.apple.com
 DOMAIN,oscdn.origin-apple.com.akadns.net
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,p-events-delivery.akamaized.net
@@ -447,7 +320,6 @@ DOMAIN,pancake.apple.com
 DOMAIN,pancake.cdn-apple.com.akadns.net
 DOMAIN,pd.itunes.apple.com
 DOMAIN,play.itunes.apple.com
-DOMAIN,ppq.apple.com
 DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,publicassets.cdn-apple.com
 DOMAIN,push-apple.com.akadns.net
@@ -473,16 +345,11 @@ DOMAIN,supportdownload.apple.com
 DOMAIN,swallow.apple.com
 DOMAIN,swcatalog-cdn.apple.com.akadns.net
 DOMAIN,swcatalog.apple.com
-DOMAIN,swcdn.apple.com
 DOMAIN,swcdn.g.aaplimg.com
-DOMAIN,swdist.apple.com
 DOMAIN,swdist.apple.com.akadns.net
 DOMAIN,swscan-cdn.apple.com.akadns.net
-DOMAIN,swscan.apple.com
 DOMAIN,sync.itunes.apple.com
-DOMAIN,updates-http.cdn-apple.com
 DOMAIN,updates-http.cdn-apple.com.akadns.net
-DOMAIN,updates.cdn-apple.com
 DOMAIN,upp.itunes.apple.com
 DOMAIN,valid.apple.com
 DOMAIN,valid.origin-apple.com.akadns.net
@@ -490,37 +357,19 @@ DOMAIN,weather-data.apple.com
 DOMAIN,www.apple.com
 DOMAIN,www.apple.com.edgekey.net
 DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,xp.apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN,gateway.icloud.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,news-assets.apple.com
-DOMAIN,news-client-search.apple.com
-DOMAIN,news-client.apple.com
-DOMAIN,news-edge.apple.com
-DOMAIN,news-events.apple.com
 DOMAIN,api-glb-sea.smoot.apple.com
-DOMAIN,books.itunes.apple.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
-DOMAIN,hls.itunes.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,sandbox.itunes.apple.com
 DOMAIN,testflight.apple.com
-DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
 DOMAIN,fmfmobile.icloud.com
 DOMAIN,fmipmobile.icloud.com
 DOMAIN,statici.icloud.com
-DOMAIN,amp-api.fitness.apple.com
-DOMAIN,hls-svod.itunes.apple.com
 DOMAIN,guzzoni.apple.com
 DOMAIN,beta.apple.com
-DOMAIN,www-cdn.icloud.com.akadns.net
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-h2.icloud.com
@@ -599,7 +448,6 @@ DOMAIN-SUFFIX,apple.ca
 DOMAIN-SUFFIX,apple.ch
 DOMAIN-SUFFIX,apple.cl
 DOMAIN-SUFFIX,apple.cm
-DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.co.cr
 DOMAIN-SUFFIX,apple.co.hu
 DOMAIN-SUFFIX,apple.co.jp
@@ -612,7 +460,6 @@ DOMAIN-SUFFIX,apple.com.af
 DOMAIN-SUFFIX,apple.com.au
 DOMAIN-SUFFIX,apple.com.bo
 DOMAIN-SUFFIX,apple.com.br
-DOMAIN-SUFFIX,apple.com.cdn20.com
 DOMAIN-SUFFIX,apple.com.co
 DOMAIN-SUFFIX,apple.com.de
 DOMAIN-SUFFIX,apple.com.do
@@ -621,8 +468,6 @@ DOMAIN-SUFFIX,apple.com.gy
 DOMAIN-SUFFIX,apple.com.jm
 DOMAIN-SUFFIX,apple.com.lk
 DOMAIN-SUFFIX,apple.com.mg
-DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
-DOMAIN-SUFFIX,apple.com.mwcname.com
 DOMAIN-SUFFIX,apple.com.mx
 DOMAIN-SUFFIX,apple.com.my
 DOMAIN-SUFFIX,apple.com.pa
@@ -1337,7 +1182,6 @@ DOMAIN-SUFFIX,ischool.com
 DOMAIN-SUFFIX,islamiccenterofnewlondon.com
 DOMAIN-SUFFIX,italiabeatsbydrdre.com
 DOMAIN-SUFFIX,itools.info
-DOMAIN-SUFFIX,itunes.com.edgekey.net
 DOMAIN-SUFFIX,iwork.com
 DOMAIN-SUFFIX,iwork.se
 DOMAIN-SUFFIX,iwork.wang
@@ -2046,9 +1890,5 @@ DOMAIN-SUFFIX,iphoto.se
 DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,digicert.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
-DOMAIN-KEYWORD,testflight
-DOMAIN-KEYWORD,icloud.com.akadns.net
