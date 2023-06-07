@@ -1575,6 +1575,8 @@ DOMAIN-SUFFIX,applifier.com
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,applogapi.autohome.com.cn
 DOMAIN-SUFFIX,applogios.uc.cn
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,app-monitor.ele.me
 DOMAIN-SUFFIX,appnext.com
 DOMAIN-SUFFIX,appodealx.com
@@ -2573,7 +2575,6 @@ DOMAIN-SUFFIX,d.39.net
 DOMAIN-SUFFIX,d.admx.baixing.com
 DOMAIN-SUFFIX,d.agkn.com
 DOMAIN-SUFFIX,d.annarbor.com
-DOMAIN-SUFFIX,d.applovin.com
 DOMAIN-SUFFIX,d.beigedi.com
 DOMAIN-SUFFIX,d.businessinsider.com
 DOMAIN-SUFFIX,d.clkservice.youdao.com
@@ -2872,6 +2873,7 @@ DOMAIN-SUFFIX,dol.deliver.ifeng.com
 DOMAIN-SUFFIX,dolphin.deliver.ifeng.com
 DOMAIN-SUFFIX,dolphin.ftimg.net
 DOMAIN-SUFFIX,dolphin4.ftimg.net
+DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,domed.shenbimall.com
 DOMAIN-SUFFIX,do-not-tracker.org
 DOMAIN-SUFFIX,dontblockme.modaco.com
@@ -8226,6 +8228,10 @@ URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/search\/(defaultword|hot|recommen
 URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
 URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
 
+# > OpenAI
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openaicom.imgix.net
+
 # > Didi
 URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 
@@ -8293,7 +8299,6 @@ IP-CIDR,47.89.59.182/32,no-resolve
 IP-CIDR,103.49.209.27/32,no-resolve
 IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,123.56.152.96/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 
 USER-AGENT,AVOS*
 
