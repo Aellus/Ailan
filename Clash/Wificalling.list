@@ -5,3 +5,5 @@ payload:
   - IP-CIDR,208.54.0.0/16
   - DOMAIN-SUFFIX,t-mobile.com
   - DOMAIN-SUFFIX,pub.3gppnetwork.org
+  - DST-PORT,4500,DIRECT #匹配数据目标端口(直连)
+  - SRC-PORT,4500,DIRECT #匹配数据源端口(直连)
