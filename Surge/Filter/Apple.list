@@ -29,10 +29,13 @@ DOMAIN-SUFFIX,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,news-edge.apple.com
 DOMAIN-SUFFIX,news-events.apple.com
+
 # > News+ Audio
 URL-REGEX,^https?:\/\/news-assets\.apple\.com\/(audio-narrative|podcast\/audio)\/.*
+
 # > Apple Maps
 PROCESS-NAME,com.apple.geod
+
 # > Apple Content caching
 # https://support.apple.com/en-us/HT210060
 IP-CIDR,17.57.21.63/32,no-resolve
@@ -40,6 +43,18 @@ IP-CIDR,17.57.21.63/32,no-resolve
 DOMAIN,lcdn-registration.apple.com
 # Content caching locator service
 DOMAIN,lcdn-locator.apple.com
+
+# > iCloud Private Relay
+# https://developer.apple.com/cn/support/prepare-your-network-for-icloud-private-relay/
+# https://mask-api.icloud.com/egress-ip-ranges.csv
+# Allow for network traffic audits
+DOMAIN,mask.icloud.com
+DOMAIN,mask.apple-dns.net
+DOMAIN,mask-canary.icloud.com
+DOMAIN,canary.mask.apple-dns.net
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-t.apple-dns.net
+
 #----Apple----
 # > iCloud
 DOMAIN-SUFFIX,gateway.icloud.com
