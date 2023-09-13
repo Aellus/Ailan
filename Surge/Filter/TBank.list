@@ -6,3 +6,8 @@ DOMAIN-SUFFIX,colendilabs.com
 # Ozan
 DOMAIN-KEYWORD,Ozan
 DOMAIN-SUFFIX,Ozan.com
+
+#Turkcell
+DOMAIN-KEYWORD,turkcell
+DOMAIN-KEYWORD,eturkcell
+DOMAIN-SUFFIX,turkcell.com.tr
