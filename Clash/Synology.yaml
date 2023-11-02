@@ -1,5 +1,5 @@
 payload:
-  # Synology
+  # NAME: Synology
   - DOMAIN-KEYWORD,quickconnect
   - DOMAIN-KEYWORD,synology
   - DOMAIN-SUFFIX,quickconnect.to
