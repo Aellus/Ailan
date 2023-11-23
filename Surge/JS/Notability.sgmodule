@@ -1,0 +1,8 @@
+#!name=Notability
+#!desc=
+
+[Script]
+Notability = type=http-response,pattern=^https?:\/\/notability\.com\/(global|subscriptions),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
+
+[MITM]
+hostname = notability.com
