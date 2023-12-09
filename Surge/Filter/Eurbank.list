@@ -3,6 +3,10 @@ DOMAIN-KEYWORD,vodafone
 DOMAIN-SUFFIX,vodafone.co.uk
 DOMAIN-SUFFIX,co.uk
 
+#Giffgaff
+DOMAIN-KEYWORD,giffgaff
+DOMAIN-SUFFIX,giffgaff.com
+
 # N26
 DOMAIN-KEYWORD,tech26
 DOMAIN-KEYWORD,n26
