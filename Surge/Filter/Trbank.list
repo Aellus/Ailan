@@ -4,8 +4,16 @@ DOMAIN-SUFFIX,oldubil.colendilabs.com
 DOMAIN-SUFFIX,colendilabs.com
 
 # Ozan
-DOMAIN-KEYWORD,Ozan
-DOMAIN-SUFFIX,Ozan.com
+DOMAIN-KEYWORD,ozan
+DOMAIN-SUFFIX,ozan.com
+
+#iyzico
+DOMAIN-KEYWORD,iyzico
+DOMAIN-SUFFIX,iyzico.com
+
+#Papara
+DOMAIN-KEYWORD,papara
+DOMAIN-SUFFIX,papara.com
 
 #Turkcell
 DOMAIN-KEYWORD,turkcell
