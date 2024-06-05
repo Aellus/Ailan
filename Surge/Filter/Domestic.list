@@ -68,6 +68,12 @@ IP-CIDR6,2a0b:b583::/48,no-resolve
 # > Tencent
 IP-CIDR,182.254.116.0/24,no-resolve
 
+# > 彩云天气
+DOMAIN-SUFFIX,caiyuncdn.com
+
+# > 莉景天气
+DOMAIN-SUFFIX,baichuan.tech
+
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,12306.cn
