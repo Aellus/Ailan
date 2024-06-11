@@ -4,7 +4,10 @@ DOMAIN-KEYWORD,okcoin
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
-DOMAIN-SUFFIX,okx.com
+
+#Bybit
+DOMAIN-KEYWORD,bybit
+DOMAIN-SUFFIX,bybit.com
 
 #Binance
 DOMAIN-KEYWORD,binance
