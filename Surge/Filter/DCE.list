@@ -7,7 +7,15 @@ DOMAIN-SUFFIX,oklink.com
 
 #Bybit
 DOMAIN-KEYWORD,bybit
-DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bitverse.zone
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-global.com
 
 #Binance
 DOMAIN-KEYWORD,binance
