@@ -33,6 +33,12 @@ IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2a0a:f280::/29,no-resolve
 
+#Wallet
+DOMAIN-SUFFIX, walletbot.me
+DOMAIN-SUFFIX, walletteam.org
+DOMAIN-SUFFIX, tonapi.io
+DOMAIN-SUFFIX, ton.space
+
 # 网络环境差时出站
 IP-CIDR,95.161.76.101/32,no-resolve
 # DC5
