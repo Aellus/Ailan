@@ -1,10 +1,9 @@
-
-# > ChatGPT
+#> ChatGPT
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 
-# > Chat GPT API & CDN
+#> ChatGPTAPI&CDN
 DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openaiapi-site.azureedge.net
@@ -12,35 +11,82 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 
-DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN,o33249.ingest.sentry.io
 
-# > New Bing
+#> NewBing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
 
-# > Claude
+#> Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
 
-# > Copilot
-DOMAIN,api.githubcopilot.com
+#> CloudflareAIGateway
+DOMAIN,gateway.ai.cloudflare.com
+
+#> Copilot
+DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot.microsoft.com
 
-# > Gemini
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
+#> Dify.AI
+DOMAIN-SUFFIX,dify.ai
 
-# > Meta AI
+#> GitHubCopilot
+DOMAIN,api.github.com
+
+#> GoogleGemini
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+
+#> GoogleDeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+
+#> GoogleGenerativeLanguageAPI
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+#> GoogleAIStudio
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,ai.google.dev
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,waa-pa.clients6.google.com
+
+#> GoogleNotebookLM
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+#> Groq
+DOMAIN-SUFFIX,groq.com
+
+#> Jasper
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,jasper.ai
+
+#> MetaAI
 DOMAIN-SUFFIX,meta.ai
 
-# > Perplexity AI
+#> OpenArt
+DOMAIN-SUFFIX,openart.ai
+
+#> PerplexityAI
 DOMAIN-SUFFIX,perplexity.ai
 
-# > Siri
+#> POE
+DOMAIN-SUFFIX,poe.com
+
+#> Siri
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,guzzoni.smoot.apple.com
 
+#> Sora
+DOMAIN-SUFFIX,sora.com
+DOMAIN,sora-cdn.oaistatic.com
