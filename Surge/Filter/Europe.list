@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,co.uk
 #Giffgaff
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-SUFFIX,giffgaff.com
+IP-CIDR,87.194.0.0/16
 
 # N26
 DOMAIN-KEYWORD,tech26
@@ -17,3 +18,14 @@ DOMAIN-SUFFIX,number26.de
 # Wise
 DOMAIN-KEYWORD,wise
 DOMAIN-SUFFIX,wise.com
+
+# 沃达丰
+DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, entsrv-uk.vodafone.com
+DOMAIN-SUFFIX, vuk-gto.prod.ondemandconnectivity.com
+IP-CIDR,88.82.0.0/19
+
+# CMLinkUK EE
+IP-CIDR,46.68.0.0/17
