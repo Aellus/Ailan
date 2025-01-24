@@ -16,6 +16,14 @@ DOMAIN-SUFFIX,bitverse.zone
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,bybit-global.com
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bytick.com
 
 #Binance
 DOMAIN-KEYWORD,binance
