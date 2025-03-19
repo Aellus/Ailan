@@ -1,6 +1,6 @@
 #> 中国银行香港
-DOMAIN-KEYWORD,bochk
-DOMAIN-SUFFIX,bochk.com
+#DOMAIN-KEYWORD,bochk
+#DOMAIN-SUFFIX,bochk.com
 
 #> 长桥证券
 DOMAIN-KEYWORD,lbkrs
