@@ -1,0 +1,5 @@
+#> Coinbase
+USER-AGENT,coinbase*
+DOMAIN-KEYWORD,coinbase
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN,api.sprig.com
