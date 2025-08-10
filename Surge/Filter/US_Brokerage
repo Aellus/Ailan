@@ -1,0 +1,24 @@
+#> Interactive Brokers
+DOMAIN-KEYWORD,ibkr
+DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibkr.com.cn
+DOMAIN-SUFFIX,ibllc.com.cn
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,interactivebrokers.com.sg
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,interactivebrokers.com.au
+
+#> Futunn
+DOMAIN-KEYWORD,futunn
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,fututrade.com
+
+#> Moomoo
+DOMAIN-KEYWORD,moomoo
+DOMAIN-SUFFIX,moomoo.com
+
+#> Schwab
+DOMAIN-KEYWORD,schwab
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwab.com.hk
