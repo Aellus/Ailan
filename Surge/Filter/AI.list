@@ -1,22 +1,139 @@
-#> ChatGPT
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,openai.com
+# NAME: Gemini
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:02
+# DOMAIN: 3
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 7
+# TOTAL: 13
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,waa-pa.clients6.google.com
 
-#> ChatGPTAPI&CDN
-DOMAIN-SUFFIX,cdn.oaistatic.com
+#> GoogleNotebookLM
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:00
+# DOMAIN: 7
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 24
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 35
+DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
-
-DOMAIN-SUFFIX,cdn.oaistatic.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-KEYWORD,openai
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+
+#> ChatGPTAPI&CDN
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN,o33249.ingest.sentry.io
 
-#> NewBing
+# NAME: Copilot
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:02
+# DOMAIN: 20
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# IP-ASN: 2
+# IP-CIDR: 2
+# TOTAL: 51
+DOMAIN,api.msn.com
+DOMAIN,api.statsig.com
+DOMAIN,assets.msn.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-KEYWORD,openaicom-api
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot.microsoft.com
+IP-ASN,14061,no-resolve
+
+#> Siri
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,guzzoni.smoot.apple.com
+DOMAIN,guzzoni.apple.com
+
+# NAME: Bing
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:00
+# DOMAIN-SUFFIX: 9
+# TOTAL: 9
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.com.cn
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bingads.com
+DOMAIN-SUFFIX,bingagencyawards.com
+DOMAIN-SUFFIX,bingapistatistics.com
+DOMAIN-SUFFIX,bingsandbox.com
+DOMAIN-SUFFIX,bingvisualsearch.com
+DOMAIN-SUFFIX,bingworld.com
 DOMAIN-SUFFIX,bingapis.com
 
 #> Claude
@@ -27,41 +144,11 @@ DOMAIN-SUFFIX,claudeusercontent.com
 #> CloudflareAIGateway
 DOMAIN,gateway.ai.cloudflare.com
 
-#> Copilot
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN,copilot.microsoft.com
-
 #> Dify.AI
 DOMAIN-SUFFIX,dify.ai
 
 #> GitHubCopilot
 DOMAIN,api.github.com
-
-#> GoogleGemini
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-
-#> GoogleDeepMind
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-
-#> GoogleGenerativeLanguageAPI
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-
-#> GoogleAIStudio
-DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN,ai.google.dev
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,waa-pa.clients6.google.com
-
-#> GoogleNotebookLM
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
 
 #> Groq
 DOMAIN-SUFFIX,groq.com
@@ -81,11 +168,6 @@ DOMAIN-SUFFIX,perplexity.ai
 
 #> POE
 DOMAIN-SUFFIX,poe.com
-
-#> Siri
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,guzzoni.smoot.apple.com
 
 #> Sora
 DOMAIN-SUFFIX,sora.com
