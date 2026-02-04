@@ -1,11 +1,12 @@
-#OKX
+# > OKX
 DOMAIN-KEYWORD,okx
 DOMAIN-KEYWORD,okcoin
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
 
-#Bybit
+# > Bybit
 DOMAIN-KEYWORD,bybit
 DOMAIN-SUFFIX,byabcde.com
 DOMAIN-SUFFIX,bybdc6.com
@@ -24,8 +25,23 @@ DOMAIN-SUFFIX,bycbe.com
 DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,bymj.io
 DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byabcd.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
 
-#Binance
+# > BitGet
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.org
+DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitget.club
+DOMAIN-SUFFIX,bitget.xyz
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitgetapps.com
+DOMAIN-KEYWORD,bitget
+
+# > Binance
 DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.info
