@@ -8,6 +8,17 @@ DOMAIN-SUFFIX,abchina.com.cn
 
 # > Bank of China
 DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bochk.com
+
+# > 
+DOMAIN-SUFFIX,garmin.cn
+DOMAIN-SUFFIX,ipapark.com
+DOMAIN-SUFFIX,qq.net
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,ysepay.cn
+DOMAIN-SUFFIX,ysepay.com
 
 # > China Citic Bank
 DOMAIN-SUFFIX,citicbank.com
