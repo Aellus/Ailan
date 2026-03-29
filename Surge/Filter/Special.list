@@ -15,9 +15,15 @@ DOMAIN-SUFFIX,dl.google.com
 USER-AGENT,Microsoft%20Remote%20Desktop*
 DOMAIN-SUFFIX,msftconnecttest.com
 
+# > Passkey
+DOMAIN-SUFFIX,auth.com
+
 # > Proxy plugin
 PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
+
+# > PlayStation
+DOMAIN-SUFFIX,dl.playstation.net
 
 # > Steam
 USER-AGENT,Steam*
@@ -28,6 +34,8 @@ DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamserver.net
 
 DOMAIN-SUFFIX,steamchina.com
+
+DOMAIN,gstore.val.manlaxy.com
 
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dota2.wmsj.cn
@@ -113,9 +121,13 @@ DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,sandai.net
 
 DOMAIN-SUFFIX,smtp
 URL-REGEX,(Subject|HELO|SMTP)
 
 # > UBI
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+
+# > Tailscale
+IP-CIDR,100.64.0.0/10,no-resolve
