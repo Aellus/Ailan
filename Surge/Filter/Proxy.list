@@ -1,6 +1,35 @@
 # > TestFlight
 DOMAIN,testflight.apple.com
 
+# > Blizzard
+USER-AGENT,hearthstone*
+DOMAIN,cdp.cloud.unity3d.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
+
+# > Sony
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+
+# > WAQI
+DOMAIN,api.waqi.info
+DOMAIN,aqi.aqicn.org
+
+# > Top blocked sites
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,nikke-kr.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,torrentmac.net
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,tenor.com
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,cloud.cupronickel.goog
+
 # > Duolingo
 USER-AGENT,Duolingo*
 DOMAIN-KEYWORD,duolingo
