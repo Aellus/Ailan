@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
 # > Bybit
 DOMAIN-KEYWORD,bybit
 DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,bybit.eu
 DOMAIN-SUFFIX,bybdc6.com
 DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,byd3c3.com
