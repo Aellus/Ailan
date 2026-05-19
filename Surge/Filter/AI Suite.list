@@ -16,11 +16,21 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN,copilot.microsoft.com
 
+# > Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
 # > Cursor
 DOMAIN-SUFFIX,cursor.sh
 
-# > DIA
-DOMAIN-SUFFIX,diabrowser.engineering
+#> GitHubCopilot
+DOMAIN,api.github.com
+
+# > Meta AI
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
 
 # > Google AI Studio
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
@@ -37,6 +47,7 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 
 # > Google DeepMind
 DOMAIN-SUFFIX,deepmind.com
@@ -50,6 +61,17 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 # > Grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+
+#> Groq
+DOMAIN-SUFFIX,groq.com
+
+# > TRAE
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,traeapi.us
+
+#> Sora
+DOMAIN-SUFFIX,sora.com
+DOMAIN,sora-cdn.oaistatic.com
 
 # > JetBrains
 DOMAIN-SUFFIX,jetbrains.ai
@@ -214,39 +236,24 @@ DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
 DOMAIN-SUFFIX,bingapis.com
 
-#> Claude
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
-
 #> CloudflareAIGateway
 DOMAIN,gateway.ai.cloudflare.com
 
 #> Dify.AI
 DOMAIN-SUFFIX,dify.ai
 
-#> GitHubCopilot
-DOMAIN,api.github.com
-
-#> Groq
-DOMAIN-SUFFIX,groq.com
-
 #> Jasper
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,jasper.ai
 
-#> MetaAI
-DOMAIN-SUFFIX,meta.ai
-
 #> OpenArt
 DOMAIN-SUFFIX,openart.ai
+
+# > DIA
+DOMAIN-SUFFIX,diabrowser.engineering
 
 #> PerplexityAI
 DOMAIN-SUFFIX,perplexity.ai
 
 #> POE
 DOMAIN-SUFFIX,poe.com
-
-#> Sora
-DOMAIN-SUFFIX,sora.com
-DOMAIN,sora-cdn.oaistatic.com
