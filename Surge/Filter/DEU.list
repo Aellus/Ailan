@@ -1,0 +1,17 @@
+# N26
+DOMAIN-KEYWORD,tech26
+DOMAIN-KEYWORD,n26
+DOMAIN-KEYWORD,number26
+DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,number26.de
+
+# UR
+DOMAIN-SUFFIX,ur.app
+
+# Monese
+DOMAIN-SUFFIX,monese.com
+
+# Moneda
+DOMAIN-SUFFIX,ingest.de.sentry.io
+DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-SUFFIX,api-gateway-xi-nine.vercel.app
