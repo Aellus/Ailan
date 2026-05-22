@@ -8,13 +8,6 @@ DOMAIN-KEYWORD,giffgaff
 DOMAIN-SUFFIX,giffgaff.com
 IP-CIDR,87.194.0.0/16
 
-# N26
-DOMAIN-KEYWORD,tech26
-DOMAIN-KEYWORD,n26
-DOMAIN-KEYWORD,number26
-DOMAIN-SUFFIX,tech26.de
-DOMAIN-SUFFIX,number26.de
-
 # Wise
 DOMAIN-KEYWORD,wise
 DOMAIN-SUFFIX,wise.com
@@ -29,8 +22,3 @@ IP-CIDR,88.82.0.0/19
 
 # CMLinkUK EE
 IP-CIDR,46.68.0.0/17
-
-# Moneda
-DOMAIN-SUFFIX,ingest.de.sentry.io
-DOMAIN-SUFFIX,walletconnect.org
-DOMAIN-SUFFIX,api-gateway-xi-nine.vercel.app
