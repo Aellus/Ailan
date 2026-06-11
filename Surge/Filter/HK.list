@@ -11,8 +11,6 @@ DOMAIN-SUFFIX,lb-static.com
 DOMAIN-SUFFIX,longportapp.hk
 DOMAIN-SUFFIX,longbridge.sg
 DOMAIN-SUFFIX,longbridge-inc.com
-IP-CIDR,47.85.0.0/16,no-resolve
-IP-CIDR,161.117.0.0/16,no-resolve
 DOMAIN,quote.longbridge.global
 DOMAIN,trade.longportapp.com
 DOMAIN-SUFFIX,wbrks.com
@@ -20,6 +18,8 @@ DOMAIN-SUFFIX,longportapp.cn
 DOMAIN-SUFFIX,longportapp.com
 DOMAIN-SUFFIX,longbridgeapp.com
 DOMAIN-SUFFIX,longbridge.hk
+IP-CIDR,47.85.0.0/16,no-resolve
+IP-CIDR,161.117.0.0/16,no-resolve
 
 #> futu
 DOMAIN-SUFFIX,futuhk.com
@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,futumkt.com
 DOMAIN-SUFFIX,futu.sg
 DOMAIN-SUFFIX,futu.au
 DOMAIN-SUFFIX,futustatic.com
+
 # --- Aggressive fallback ---
 DOMAIN-KEYWORD,futunn
 DOMAIN-KEYWORD,futubull
