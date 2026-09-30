@@ -207,9 +207,6 @@ DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN,connect.facebook.net
 
-# > 宽泛 CDN / 通用服务（可能影响其他网站）
-DOMAIN-SUFFIX,ai.com
-
 # ============================================================
 # 以下为范围较宽、容易误伤的规则，请按需保留或删除
 # ============================================================
