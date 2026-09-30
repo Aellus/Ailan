@@ -1,3 +1,61 @@
+# > Claude / Anthropic
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# > OpenAI / ChatGPT
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,static.cloudflareinsights.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openaicom-api
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+
+# > Sora
+DOMAIN,sora-cdn.oaistatic.com
+DOMAIN-SUFFIX,sora.com
+
+# > Perplexity
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+
+# > Meta AI
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
+
+# > Muse AI
+DOMAIN,production.museai.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN-SUFFIX,muse.ai
+
+# > xAI / Grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
 # > Nvidia
 DOMAIN-SUFFIX,nvidia.com
 
@@ -12,187 +70,8 @@ DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,chorus.sh
 
 # > Copilot
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN,copilot.microsoft.com
-
-# > Claude
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
-
-# > Cursor
-DOMAIN-SUFFIX,cursor.sh
-
-#> GitHubCopilot
-DOMAIN,api.github.com
-
-# > Meta AI
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
-
-# > Google AI Studio
-DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN,ai.google.dev
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,waa-pa.clients6.google.com
-
-# > Google Gemini
-DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-
-# > Google DeepMind
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-
-# > Google Generative Language API
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-
-# > Grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-
-#> Groq
-DOMAIN-SUFFIX,groq.com
-
-# > TRAE
-DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,traeapi.us
-
-#> Sora
-DOMAIN-SUFFIX,sora.com
-DOMAIN,sora-cdn.oaistatic.com
-
-# > JetBrains
-DOMAIN-SUFFIX,jetbrains.ai
-
-# > OpenRouter
-DOMAIN-SUFFIX,openrouter.ai
-
-# > Siri
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
-
-# > Windsurf
-DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,codeium.com
-DOMAIN-SUFFIX,codeiumdata.com
-
-# > Zed
-DOMAIN-SUFFIX,zed.dev
-
-# NAME: Gemini
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:02
-# DOMAIN: 3
-# DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 7
-# TOTAL: 13
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,waa-pa.clients6.google.com
-
-#> GoogleNotebookLM
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
-
-# NAME: OpenAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:00
-# DOMAIN: 7
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 24
-# IP-ASN: 1
-# IP-CIDR: 2
-# TOTAL: 35
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
-
-#> ChatGPTAPI&CDN
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,cdn.oaistatic.com
-DOMAIN,o33249.ingest.sentry.io
-
-# NAME: Copilot
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:02
-# DOMAIN: 20
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 26
-# IP-ASN: 2
-# IP-CIDR: 2
-# TOTAL: 51
 DOMAIN,api.msn.com
-DOMAIN,api.statsig.com
 DOMAIN,assets.msn.com
 DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
@@ -208,52 +87,153 @@ DOMAIN-SUFFIX,api.microsoftapp.net
 DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,edgeservices.bing.com
-DOMAIN-KEYWORD,openaicom-api
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN,copilot.microsoft.com
 IP-ASN,14061,no-resolve
 
-#> Siri
+# > Cursor
+DOMAIN-SUFFIX,cursor.sh
+
+# > Windsurf
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+
+# > Zed
+DOMAIN-SUFFIX,zed.dev
+
+# > GitHub Copilot
+DOMAIN,api.github.com
+
+# > Google AI Studio
+DOMAIN,ai.google.dev
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+
+# > NotebookLM
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# > Google Gemini
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+
+# > Google DeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+
+# > Google Generative Language API
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# > Groq
+DOMAIN-SUFFIX,groq.com
+
+# > Midjourney
+DOMAIN-SUFFIX,midjourney.com
+
+# > Manus
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manuscdn.com
+
+# > TRAE
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,traeapi.us
+
+# > JetBrains AI
+DOMAIN-SUFFIX,jetbrains.ai
+
+# > OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
+
+# > Siri
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
-DOMAIN,guzzoni.smoot.apple.com
 DOMAIN,guzzoni.apple.com
+DOMAIN,guzzoni.smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
 
-# NAME: Bing
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:00
-# DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# > Dify.AI
+DOMAIN-SUFFIX,dify.ai
+
+# > Jasper
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,jasper.ai
+
+# > OpenArt
+DOMAIN-SUFFIX,openart.ai
+
+# > DIA
+DOMAIN-SUFFIX,diabrowser.engineering
+
+# > POE
+DOMAIN-SUFFIX,poe.com
+
+# > Cloudflare AI Gateway
+DOMAIN,gateway.ai.cloudflare.com
+
+# > Bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,bingads.com
 DOMAIN-SUFFIX,bingagencyawards.com
 DOMAIN-SUFFIX,bingapistatistics.com
+DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,bingsandbox.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
-DOMAIN-SUFFIX,bingapis.com
 
-#> CloudflareAIGateway
-DOMAIN,gateway.ai.cloudflare.com
+# > Google 通用 API（影响大量 Google 服务）
+DOMAIN-SUFFIX,apis.google.com
 
-#> Dify.AI
-DOMAIN-SUFFIX,dify.ai
+# > Microsoft 账号（影响大量微软服务）
+DOMAIN-SUFFIX,microsoftonline.com
 
-#> Jasper
-DOMAIN-SUFFIX,clipdrop.co
-DOMAIN-SUFFIX,jasper.ai
+# > Facebook / Meta 通用域名（影响 Facebook、Instagram 等）
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN,connect.facebook.net
 
-#> OpenArt
-DOMAIN-SUFFIX,openart.ai
+# > 宽泛 CDN / 通用服务（可能影响其他网站）
+DOMAIN-SUFFIX,ai.com
 
-# > DIA
-DOMAIN-SUFFIX,diabrowser.engineering
+# ============================================================
+# 以下为范围较宽、容易误伤的规则，请按需保留或删除
+# ============================================================
 
-#> PerplexityAI
-DOMAIN-SUFFIX,perplexity.ai
+# > 宽泛 CDN / 通用服务（可能影响其他网站）
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,cloudflare.com
+# DOMAIN-SUFFIX,azureedge.net
+# DOMAIN-SUFFIX,imgix.net
+# DOMAIN-SUFFIX,livekit.cloud
+# DOMAIN-SUFFIX,fastly-edge.com
 
-#> POE
-DOMAIN-SUFFIX,poe.com
+# > 登录 / 支付 / 监控 / 分析（很多网站共用）
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,stripe.com
+# DOMAIN-SUFFIX,sentry.io
+# DOMAIN-SUFFIX,algolia.net
+# DOMAIN-SUFFIX,segment.io
+# DOMAIN-SUFFIX,launchdarkly.com
+# DOMAIN-SUFFIX,intercom.io
+# DOMAIN-SUFFIX,intercomcdn.com
+# DOMAIN-SUFFIX,statsig.com
+# DOMAIN-SUFFIX,statsigapi.net
+# DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,observeit.net
+# DOMAIN-SUFFIX,identrust.com
+
