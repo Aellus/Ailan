@@ -1,0 +1,8 @@
+#!name=Carrot
+#!desc=Carrot Weather
+
+[Script]
+http-response ^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId script-path=https://raw.githubusercontent.com/Aellus/Ailan/refs/heads/master/Rewrite/Carrot.js, requires-body=true, timeout=10, tag=Carrot
+
+[MITM]
+hostname = %APPEND% carrotweather.herokuapp.com
