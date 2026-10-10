@@ -1,4 +1,96 @@
-# > hyperliquid
+# ==========================================
+# Surge 分流规则整合：OKX + Hyperliquid/Crypto
+# 已去重，保留原分类注释
+# ==========================================
+
+# > OKX
+DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,okcoin
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+PROCESS-NAME,OKX.exe
+
+# > Bybit
+DOMAIN-KEYWORD,bybit
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bitverse.zone
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byabcd.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+
+# > BitGet
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.org
+DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitget.club
+DOMAIN-SUFFIX,bitget.xyz
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitgetapps.com
+DOMAIN-KEYWORD,bitget
+
+# > Binance
+DOMAIN-KEYWORD,binance
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.im
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.charity
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.net
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,binancezh.be
+DOMAIN-SUFFIX,binancezh.biz
+DOMAIN-SUFFIX,binancezh.cc
+DOMAIN-SUFFIX,binancezh.co
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.info
+DOMAIN-SUFFIX,binancezh.ink
+DOMAIN-SUFFIX,binancezh.kim
+DOMAIN-SUFFIX,binancezh.link
+DOMAIN-SUFFIX,binancezh.live
+DOMAIN-SUFFIX,binancezh.mobi
+DOMAIN-SUFFIX,binancezh.net
+DOMAIN-SUFFIX,binancezh.pro
+DOMAIN-SUFFIX,binancezh.sh
+DOMAIN-SUFFIX,binancezh.top
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnappzh.com
+DOMAIN-SUFFIX,bnappzh.mobi
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bsc.getblock.io
+DOMAIN-SUFFIX,bscscan.com
+PROCESS-NAME,Binance.exe
+
+# > Hyperliquid
 DOMAIN-KEYWORD,hyperliquid
 DOMAIN-SUFFIX,hyperliquid.xyz
 DOMAIN-SUFFIX,hyperliquid-api.xyz
@@ -14,9 +106,7 @@ DOMAIN-SUFFIX,bithumb.com
 DOMAIN-SUFFIX,bitmex.com
 DOMAIN-SUFFIX,bitstamp.net
 DOMAIN-SUFFIX,bittrex.com
-DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,coincheck.com
-DOMAIN-SUFFIX,coinone.co.kr
 DOMAIN-SUFFIX,gemini.com
 DOMAIN-SUFFIX,korbit.co.kr
 DOMAIN-SUFFIX,kraken.com
@@ -41,45 +131,6 @@ DOMAIN-SUFFIX,zkscan.io
 DOMAIN-SUFFIX,zksync.io
 DOMAIN-SUFFIX,boba.network
 
-# > Binance
-DOMAIN-SUFFIX,binance.cc
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.im
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,bnappzh.com
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,binance.charity
-DOMAIN-SUFFIX,binance.co
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,binance.net
-DOMAIN-SUFFIX,binance.org
-DOMAIN-SUFFIX,binance.vision
-DOMAIN-SUFFIX,binanceapi.com
-DOMAIN-SUFFIX,binancezh.be
-DOMAIN-SUFFIX,binancezh.biz
-DOMAIN-SUFFIX,binancezh.cc
-DOMAIN-SUFFIX,binancezh.co
-DOMAIN-SUFFIX,binancezh.com
-DOMAIN-SUFFIX,binancezh.info
-DOMAIN-SUFFIX,binancezh.ink
-DOMAIN-SUFFIX,binancezh.kim
-DOMAIN-SUFFIX,binancezh.link
-DOMAIN-SUFFIX,binancezh.live
-DOMAIN-SUFFIX,binancezh.mobi
-DOMAIN-SUFFIX,binancezh.net
-DOMAIN-SUFFIX,binancezh.pro
-DOMAIN-SUFFIX,binancezh.sh
-DOMAIN-SUFFIX,binancezh.top
-DOMAIN-SUFFIX,bnappzh.mobi
-DOMAIN-SUFFIX,bsc.getblock.io
-DOMAIN-SUFFIX,bscscan.com
-PROCESS-NAME,Binance.exe
-DOMAIN-KEYWORD,binance
-
 # > Huobi
 DOMAIN-SUFFIX,hbabit.com
 DOMAIN-SUFFIX,hbfile.net
@@ -92,22 +143,14 @@ DOMAIN-SUFFIX,huobigroup.com
 DOMAIN-SUFFIX,huobitoken.com
 DOMAIN-SUFFIX,heco-scan.com
 DOMAIN-SUFFIX,hecoview.com
-DOMAIN-SUFFIX,hbfile.net
 DOMAIN-SUFFIX,huobi.br.com
 DOMAIN-SUFFIX,bitderiv.com
 DOMAIN-SUFFIX,hecochain.com
 DOMAIN-SUFFIX,huobi.ws
 DOMAIN-SUFFIX,huobi.ug
 DOMAIN-SUFFIX,huobi.co.ma
-DOMAIN-SUFFIX,huobi.br.com
 PROCESS-NAME,Huobi.exe
 DOMAIN-KEYWORD,huobi
-
-# > OKX
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx.com
-PROCESS-NAME,OKX.exe
-DOMAIN-KEYWORD,okx
 
 # > asproex
 DOMAIN-SUFFIX,asproex.com
@@ -137,7 +180,6 @@ DOMAIN-SUFFIX,ethgasstation.info
 DOMAIN-SUFFIX,watchtheburn.com
 DOMAIN-SUFFIX,flashbots.net
 DOMAIN-SUFFIX,cryptofees.info
-DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,ethereum-magicians.org
 DOMAIN-SUFFIX,vitalik.ca
 DOMAIN-SUFFIX,ethfans.org
@@ -165,7 +207,6 @@ DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,glassnode.com
 DOMAIN-SUFFIX,coinmetrics.io
 DOMAIN-SUFFIX,tokenview.com
-DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,blockchair.com
 DOMAIN-SUFFIX,intotheblock.com
 DOMAIN-SUFFIX,bytetree.com
@@ -183,7 +224,6 @@ DOMAIN-SUFFIX,loanscan.io
 DOMAIN-SUFFIX,defirate.com
 DOMAIN-SUFFIX,defipulse.com
 DOMAIN-SUFFIX,apy999.com
-DOMAIN-SUFFIX,defieye.io
 DOMAIN-SUFFIX,dextools.io
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,dcabtc.com
@@ -200,7 +240,6 @@ DOMAIN-SUFFIX,cryptorank.io
 DOMAIN-SUFFIX,tradeblock.com
 DOMAIN-SUFFIX,nyctale.io
 DOMAIN-SUFFIX,dovemetrics.com
-DOMAIN-SUFFIX,cryptorank.io
 DOMAIN-SUFFIX,icodrops.com
 DOMAIN-SUFFIX,chainbroker.io
 DOMAIN-SUFFIX,crunchbase.com
@@ -265,7 +304,6 @@ DOMAIN-SUFFIX,bloks.io
 DOMAIN-SUFFIX,lightning.engineering
 DOMAIN-SUFFIX,lightning.community
 DOMAIN-SUFFIX,acinq.co
-DOMAIN-SUFFIX,1ml.com
 
 # > Token
 DOMAIN-SUFFIX,tokenpocket.pro
@@ -302,7 +340,7 @@ DOMAIN-SUFFIX,mdex.com
 DOMAIN-SUFFIX,mdex.me
 DOMAIN-SUFFIX,1inch.io
 
-
+# > 其他
 DOMAIN-SUFFIX,chippay.com
 DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,unisat.io
