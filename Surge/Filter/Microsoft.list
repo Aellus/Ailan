@@ -1,9 +1,15 @@
-# > Microsoft
+# ==========================================
+# Microsoft 规则整合
+# 已去重、统一小写、Surge 规则集格式
+# ==========================================
+
+# > Microsoft / Here
 DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,here.net
 DOMAIN-SUFFIX,heremaps.cn
 DOMAIN-SUFFIX,ovi.com.cn
 
+# > Azure
 DOMAIN-SUFFIX,azure
 DOMAIN-SUFFIX,azure-apim.net
 DOMAIN-SUFFIX,azure-dns.com
@@ -59,6 +65,7 @@ DOMAIN-SUFFIX,windowsazure.com
 DOMAIN-SUFFIX,azure.microsoft.com
 DOMAIN-SUFFIX,azuremarketplace.microsoft.com
 
+# > Bing
 DOMAIN-SUFFIX,bbing.com
 DOMAIN-SUFFIX,bibg.com
 DOMAIN-SUFFIX,biing.com
@@ -119,6 +126,7 @@ DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cn.bing.net
 DOMAIN-SUFFIX,ditu.live.com
 
+# > Edge
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,c-msedge.net
 DOMAIN-SUFFIX,e-msedge.net
@@ -129,9 +137,7 @@ DOMAIN-SUFFIX,microsoftedgeinsider.com
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,s-msedge.net
 
-DOMAIN-SUFFIX,femalefounderscomp.com
-DOMAIN-SUFFIX,m12.vc
-
+# > Developer
 DOMAIN-SUFFIX,adaptivecards.io
 DOMAIN-SUFFIX,api-extractor.com
 DOMAIN-SUFFIX,apisof.net
@@ -184,6 +190,7 @@ DOMAIN-SUFFIX,poshtestgallery.cloudapp.net
 DOMAIN-SUFFIX,psg-int-centralus.cloudapp.net
 DOMAIN-SUFFIX,psg-int-eastus.cloudapp.net
 
+# > MSN
 DOMAIN-SUFFIX,microsoft-online.cn
 DOMAIN-SUFFIX,microsoft-online.com.cn
 DOMAIN-SUFFIX,microsoftnews.cc
@@ -211,6 +218,7 @@ DOMAIN-SUFFIX,msnewskids.org
 DOMAIN-SUFFIX,msnkids.com
 DOMAIN-SUFFIX,winmp.cn
 
+# > Office
 DOMAIN-SUFFIX,o365cn.com
 DOMAIN-SUFFIX,o365files.cn
 DOMAIN-SUFFIX,o365weve-dev.com
@@ -222,6 +230,7 @@ DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,officedev.cn
 
+# > OneDrive
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,livefilestore.com
@@ -234,17 +243,21 @@ DOMAIN-SUFFIX,onedrive.net
 DOMAIN-SUFFIX,onedrive.org
 DOMAIN-SUFFIX,storage.live.com
 
+# > Skype
 DOMAIN-SUFFIX,groupme.com
+DOMAIN-SUFFIX,skype
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,skype.net
 DOMAIN-SUFFIX,skypeassets.com
 DOMAIN-SUFFIX,skypeassets.net
 DOMAIN-SUFFIX,skypeforbusiness.com
 
+# > Sway
 DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,sway-extensions.com
 DOMAIN-SUFFIX,sway.com
 
+# > Visual Studio
 DOMAIN-SUFFIX,visualstudio-staging.com
 DOMAIN-SUFFIX,visualstudio.co
 DOMAIN-SUFFIX,visualstudio.co.uk
@@ -256,12 +269,14 @@ DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,vscode-webview.net
 DOMAIN-SUFFIX,vscode.dev
 
+# > Live
 DOMAIN-SUFFIX,live.cn
 DOMAIN-SUFFIX,live.com.akadns.net
 DOMAIN-SUFFIX,sclive.net
 DOMAIN-SUFFIX,windowslive.cn
 DOMAIN-SUFFIX,wlxrs.com
 
+# > AI / Office Plus
 DOMAIN-SUFFIX,aicscience.com
 DOMAIN-SUFFIX,mmais.com.cn
 DOMAIN-SUFFIX,msminico.cn
@@ -272,10 +287,12 @@ DOMAIN-SUFFIX,msxiaona.cn
 DOMAIN-SUFFIX,officeplus.cn
 DOMAIN-SUFFIX,renlifang.com
 
+# > Cortana
 DOMAIN-SUFFIX,cortana.ai
 DOMAIN-SUFFIX,cortanaanalytics.com
 DOMAIN-SUFFIX,cortanaskills.com
 
+# > Xbox
 DOMAIN-SUFFIX,forzamotorsport.net
 DOMAIN-SUFFIX,forzaracingchampionship.com
 DOMAIN-SUFFIX,forzarc.com
@@ -305,24 +322,25 @@ DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,xbx.lv
 
+# > Minecraft
 DOMAIN-SUFFIX,callersbane.com
 DOMAIN-SUFFIX,minecraft.net
 DOMAIN-SUFFIX,minecraftshop.com
 DOMAIN-SUFFIX,mojang.com
 
+# > Bethesda
 DOMAIN-SUFFIX,beth.games
 DOMAIN-SUFFIX,bethesda.net
 DOMAIN-SUFFIX,bethesdagamestudios.com
 DOMAIN-SUFFIX,bethsoft.com
 
-DOMAIN-SUFFIX,Applicationinsights.io
-DOMAIN-SUFFIX,Applicationinsights.net
+# > Microsoft 其他服务
+DOMAIN-SUFFIX,applicationinsights.io
+DOMAIN-SUFFIX,applicationinsights.net
 DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,acompli.net
 DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,ankarazirvesi2018.com
-DOMAIN-SUFFIX,applicationinsights.io
-DOMAIN-SUFFIX,applicationinsights.net
 DOMAIN-SUFFIX,aria.ms
 DOMAIN-SUFFIX,asp.net
 DOMAIN-SUFFIX,aspnetcdn.com
@@ -547,7 +565,6 @@ DOMAIN-SUFFIX,sfx.ms
 DOMAIN-SUFFIX,sharepoint.cn
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com
-DOMAIN-SUFFIX,skype
 DOMAIN-SUFFIX,staffhub.ms
 DOMAIN-SUFFIX,successwithteams.com
 DOMAIN-SUFFIX,surface.com
@@ -573,8 +590,6 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windows-int.net
 DOMAIN-SUFFIX,windows-ppe.net
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windows.nl
 DOMAIN-SUFFIX,windows8.hk
 DOMAIN-SUFFIX,windowscommunity.net
