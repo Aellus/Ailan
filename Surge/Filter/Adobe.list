@@ -1,11 +1,10 @@
-# NAME: Adobe
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-08 13:53:01
-# DOMAIN: 8
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 136
-# TOTAL: 145
+# ==========================================
+# Adobe 规则整理
+# 来源：blackmatrix7/ios_rule_script
+# 已去重、统一小写、按类型分组
+# ==========================================
+
+# > DOMAIN
 DOMAIN,adobeereg.com
 DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 DOMAIN,crl.versign.net
@@ -14,6 +13,8 @@ DOMAIN,practivate.adobe
 DOMAIN,practivate.adobe.ipp
 DOMAIN,practivate.adobe.newoa
 DOMAIN,practivate.adobe.ntp
+
+# > DOMAIN-SUFFIX
 DOMAIN-SUFFIX,10xfotolia.com
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,acrobat.com
@@ -150,4 +151,6 @@ DOMAIN-SUFFIX,verisign.com
 DOMAIN-SUFFIX,votolia.com
 DOMAIN-SUFFIX,worldsecureemail.com
 DOMAIN-SUFFIX,worldsecuresystems.com
+
+# > DOMAIN-KEYWORD
 DOMAIN-KEYWORD,adobe
