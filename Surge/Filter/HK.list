@@ -1,6 +1,9 @@
 #> Linux do
 DOMAIN-SUFFIX,linux.do
 
+#> Workers
+DOMAIN-SUFFIX,workers.dev
+
 #> 长桥证券
 DOMAIN-KEYWORD,lbkrs
 DOMAIN-SUFFIX,lbkrs.com
