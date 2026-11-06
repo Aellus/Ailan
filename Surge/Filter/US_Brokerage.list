@@ -11,16 +11,16 @@ DOMAIN-SUFFIX,interactivebrokers.com.sg
 DOMAIN-SUFFIX,interactivebrokers.com.hk
 DOMAIN-SUFFIX,interactivebrokers.com.au
 
-#> Futunn
-DOMAIN-KEYWORD,futunn
-DOMAIN-SUFFIX,futunn.com
-DOMAIN-SUFFIX,fututrade.com
-
-#> Moomoo
-DOMAIN-KEYWORD,moomoo
-DOMAIN-SUFFIX,moomoo.com
-
 #> Schwab
 DOMAIN-KEYWORD,schwab
 DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,schwab.com.hk
+
+#> Futunn
+#DOMAIN-KEYWORD,futunn
+#DOMAIN-SUFFIX,futunn.com
+#DOMAIN-SUFFIX,fututrade.com
+
+#> Moomoo
+#DOMAIN-KEYWORD,moomoo
+#DOMAIN-SUFFIX,moomoo.com
