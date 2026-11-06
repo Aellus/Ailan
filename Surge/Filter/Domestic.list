@@ -1,25 +1,21 @@
 # ================================================
-# Surge 分流规则 · 中国直连合并整理版
-# Format: Surge RULE-SET (不带策略组)
-# ================================================
-# 需先将此文件放到配置文件可访问的相应目录或通过可访问 URL 引用。
-# 提醒: 原文件包括国际站点、跨境服务及 BT/Tracker 通配关键字；
-#       为不改变用户原有分流意图，本版保留这些活跃规则，请检查直连风险。
-# 处理: 统一域名小写、原样保留 USER-AGENT、去除完全重复和被覆盖的规则。
-# 注: .cn 后缀将覆盖 .cn 下的全部子域名，因此相应明细规则已自动省略。
+# Surge RULE-SET · 国内及网易规则合并版
+# 来源: Domestic(2), NetEase, NetEaseMusic
+# 用法: 在 Surge [Rule] 中引用 RULE-SET,<文件路径或URL>,DIRECT
+# 说明: 不包含策略字段；请按实际需求指定策略。
+# 处理: 完全去重、域名后缀覆盖去冗余、IP CIDR 覆盖去冗余。
+# IP-CIDR 统一采用 no-resolve（取自上传的 Resolve 版本）。
+# 注意: 包含国际学术站点、PT/BT、网络诊断等原 Domestic 规则。
 # ================================================
 
-# ==================================================
+
 # 01 中国域名与关键词
-# ==================================================
-
-# --- 中国域名后缀 (4 条) ---
+# --- 中国域名后缀 ---
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,xn--55qx5d
 DOMAIN-SUFFIX,xn--fiqs8s
 DOMAIN-SUFFIX,xn--io0a7i
-
-# --- 常见关键词匹配 (16 条) ---
+# --- 常见关键词匹配 ---
 DOMAIN-KEYWORD,360buy
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alimama
@@ -37,11 +33,8 @@ DOMAIN-KEYWORD,vpimg
 DOMAIN-KEYWORD,xiami
 DOMAIN-KEYWORD,xiaomi
 
-# ==================================================
 # 02 金融、支付与证券
-# ==================================================
-
-# --- 证券与投资 (15 条) ---
+# --- 证券与投资 ---
 DOMAIN-SUFFIX,cailianpress.com
 DOMAIN-SUFFIX,citics.com
 DOMAIN-SUFFIX,citicsinfo.com
@@ -56,8 +49,7 @@ DOMAIN-SUFFIX,xueqiu.com
 DOMAIN-SUFFIX,zhangle.com
 USER-AGENT,TencentMidasConnect*
 USER-AGENT,tztMobileApp_zxsc2.0*
-
-# --- 银行与支付 (19 条) ---
+# --- 银行与支付 ---
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,ccb.com
@@ -78,11 +70,8 @@ DOMAIN-SUFFIX,ysepay.com
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 USER-AGENT,cmb*
 
-# ==================================================
 # 03 国内互联网与云服务
-# ==================================================
-
-# --- 360 (9 条) ---
+# --- 360 ---
 DOMAIN-SUFFIX,360.com
 DOMAIN-SUFFIX,360kuai.com
 DOMAIN-SUFFIX,360safe.com
@@ -92,8 +81,7 @@ DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhstatic.com
 DOMAIN-SUFFIX,qhupdate.com
 DOMAIN-SUFFIX,so.com
-
-# --- 京东 (8 条) ---
+# --- 京东 ---
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,jcloudcs.com
@@ -102,8 +90,7 @@ DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,paipai.com
-
-# --- 字节跳动 / 抖音 / 今日头条 (43 条) ---
+# --- 字节跳动 / 抖音 / 今日头条 ---
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,bdxiguaimg.com
 DOMAIN-SUFFIX,bdxiguastatic.com
@@ -147,8 +134,7 @@ DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zjbyte.com
 DOMAIN-SUFFIX,zjcdn.com
-
-# --- 搜狐 / 搜狗 (10 条) ---
+# --- 搜狐 / 搜狗 ---
 DOMAIN-SUFFIX,go2map.com
 DOMAIN-SUFFIX,sogo.com
 DOMAIN-SUFFIX,sogou.com
@@ -159,8 +145,7 @@ DOMAIN-SUFFIX,sohucs.com
 DOMAIN-SUFFIX,sohuno.com
 DOMAIN-SUFFIX,sohurdc.com
 DOMAIN-SUFFIX,v-56.com
-
-# --- 新浪 / 微博 (8 条) ---
+# --- 新浪 / 微博 ---
 DOMAIN-SUFFIX,leju.com
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,sina.com
@@ -169,8 +154,7 @@ DOMAIN-SUFFIX,sinaimg.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-SUFFIX,xiaoka.tv
-
-# --- 百度 (17 条) ---
+# --- 百度 ---
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidu.com.hk
 DOMAIN-SUFFIX,baidu.hk
@@ -188,11 +172,9 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,jomodns.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
-
-# --- 网易 (11 条) ---
+# --- 网易 ---
 DOMAIN-SUFFIX,126.com
 DOMAIN-SUFFIX,126.net
-DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,163yun.com
@@ -202,8 +184,7 @@ DOMAIN-SUFFIX,ydstatic.com
 DOMAIN-SUFFIX,youdao.com
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,NeteaseMusic*
-
-# --- 腾讯 / 微信 / QQ (21 条) ---
+# --- 腾讯 / 微信 / QQ ---
 DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
@@ -225,8 +206,7 @@ DOMAIN-SUFFIX,weiyun.com
 USER-AGENT,MicroMessenger*
 USER-AGENT,QQ*
 USER-AGENT,WeChat*
-
-# --- 阿里巴巴 / 高德 / 优酷 (44 条) ---
+# --- 阿里巴巴 / 高德 / 优酷 ---
 DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,a-map.co
 DOMAIN-SUFFIX,a-map.link
@@ -272,11 +252,8 @@ DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 USER-AGENT,%E4%BC%98%E9%85%B7*
 
-# ==================================================
 # 04 国内设备、软件与基础服务
-# ==================================================
-
-# --- OPPO / HeyTap (12 条) ---
+# --- OPPO / HeyTap ---
 DOMAIN-SUFFIX,allawnfs.com
 DOMAIN-SUFFIX,allawno.com
 DOMAIN-SUFFIX,allawntech.com
@@ -289,8 +266,7 @@ DOMAIN-SUFFIX,heytapmobi.com
 DOMAIN-SUFFIX,oppo.com
 DOMAIN-SUFFIX,oppoer.me
 DOMAIN-SUFFIX,oppomobile.com
-
-# --- 华为 / 荣耀 (10 条) ---
+# --- 华为 / 荣耀 ---
 DOMAIN-SUFFIX,dbankcdn.com
 DOMAIN-SUFFIX,hc-cdn.com
 DOMAIN-SUFFIX,hicloud.com
@@ -301,8 +277,7 @@ DOMAIN-SUFFIX,huaweishop.net
 DOMAIN-SUFFIX,hwccpc.com
 DOMAIN-SUFFIX,vmall.com
 DOMAIN-SUFFIX,vmallres.com
-
-# --- 小米 (8 条) ---
+# --- 小米 ---
 DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
@@ -311,34 +286,27 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomicp.com
-
-# --- 科大讯飞 (3 条) ---
+# --- 科大讯飞 ---
 DOMAIN-SUFFIX,iflyink.com
 DOMAIN-SUFFIX,iflyrec.com
 DOMAIN-SUFFIX,iflytek.com
-
-# --- 美图 (4 条) ---
+# --- 美图 ---
 DOMAIN-SUFFIX,meipai.com
 DOMAIN-SUFFIX,meitu.com
 DOMAIN-SUFFIX,meitudata.com
 DOMAIN-SUFFIX,meitustat.com
-
-# --- 金山 (3 条) ---
+# --- 金山 ---
 DOMAIN-SUFFIX,iciba.com
 DOMAIN-SUFFIX,ksosoft.com
 DOMAIN-SUFFIX,ksyun.com
 
-# ==================================================
 # 05 国内影音、内容与游戏
-# ==================================================
-
-# --- 4399 游戏 (4 条) ---
+# --- 4399 游戏 ---
 DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,4399pk.com
 DOMAIN-SUFFIX,5054399.com
 DOMAIN-SUFFIX,img4399.com
-
-# --- 乐视 (7 条) ---
+# --- 乐视 ---
 DOMAIN-SUFFIX,le.com
 DOMAIN-SUFFIX,lecloud.com
 DOMAIN-SUFFIX,letv.com
@@ -346,8 +314,7 @@ DOMAIN-SUFFIX,letvcloud.com
 DOMAIN-SUFFIX,letvimg.com
 DOMAIN-SUFFIX,letvlive.com
 DOMAIN-SUFFIX,letvstore.com
-
-# --- 人人影视 / 字幕 (17 条) ---
+# --- 人人影视 / 字幕 ---
 DOMAIN-SUFFIX,got001.com
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,p4pfile.com
@@ -365,8 +332,7 @@ DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 USER-AGENT,YYeTs*
-
-# --- 哔哩哔哩 (14 条) ---
+# --- 哔哩哔哩 ---
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
@@ -381,23 +347,19 @@ DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 USER-AGENT,*bili*
-
-# --- 央视 / CCTV (3 条) ---
+# --- 央视 / CCTV ---
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvpic.com
 DOMAIN-SUFFIX,livechina.com
-
-# --- 快手 (2 条) ---
+# --- 快手 ---
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,yximgs.com
-
-# --- 斗鱼 (4 条) ---
+# --- 斗鱼 ---
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
-
-# --- 爱奇艺 (13 条) ---
+# --- 爱奇艺 ---
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,iqiyi.com
@@ -411,13 +373,11 @@ USER-AGENT,iQiYi*
 USER-AGENT,QIYI*
 IP-CIDR,101.224.0.0/13,no-resolve
 IP-CIDR,119.176.0.0/12,no-resolve
-
-# --- 芒果 TV (3 条) ---
+# --- 芒果 TV ---
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,hunantv.com
 DOMAIN-SUFFIX,mgtv.com
-
-# --- 迅雷 (8 条) ---
+# --- 迅雷 ---
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,88cdn.com
 DOMAIN-SUFFIX,kanimg.com
@@ -427,67 +387,51 @@ DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
 DOMAIN-SUFFIX,xunlei.com
 
-# ==================================================
 # 06 国内电商、生活、出行与资讯
-# ==================================================
-
-# --- 去哪儿 (3 条) ---
+# --- 去哪儿 ---
 DOMAIN-SUFFIX,qunar.com
 DOMAIN-SUFFIX,qunarcdn.com
 DOMAIN-SUFFIX,qunarzz.com
-
-# --- 唯品会 (4 条) ---
+# --- 唯品会 ---
 DOMAIN-SUFFIX,appsimg.com
 DOMAIN-SUFFIX,appvipshop.com
 DOMAIN-SUFFIX,vip.com
 DOMAIN-SUFFIX,vipstatic.com
-
-# --- 喜马拉雅 (2 条) ---
+# --- 喜马拉雅 ---
 DOMAIN-SUFFIX,ximalaya.com
 DOMAIN-SUFFIX,xmcdn.com
-
-# --- 大众点评 (2 条) ---
+# --- 大众点评 ---
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,dpfile.com
-
-# --- 小红书 (2 条) ---
+# --- 小红书 ---
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xiaohongshu.com
-
-# --- 拼多多 (2 条) ---
+# --- 拼多多 ---
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
-
-# --- 携程 (2 条) ---
+# --- 携程 ---
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,ctrip.com
-
-# --- 滴滴出行 (3 条) ---
+# --- 滴滴出行 ---
 DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,udache.com
 
-# ==================================================
 # 07 网络基础设施与诊断
-# ==================================================
-
-# --- IP 与网络检测 (6 条) ---
+# --- IP 与网络检测 ---
 DOMAIN-SUFFIX,ip-cdn.com
 DOMAIN-SUFFIX,ip.la
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,ipv6-test.com
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
-
-# --- 中国公共 DNS (3 条) ---
+# --- 中国公共 DNS ---
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
 IP-CIDR,1.12.12.12/32,no-resolve
-
-# --- 中国电信 / ChinaNet (1 条) ---
+# --- 中国电信 / ChinaNet ---
 DOMAIN-SUFFIX,21cn.com
-
-# --- 国内 CDN 与加速 (19 条) ---
+# --- 国内 CDN 与加速 ---
 DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,baomitu.com
 DOMAIN-SUFFIX,bootcss.com
@@ -508,25 +452,8 @@ DOMAIN-SUFFIX,upaiyun.com
 DOMAIN-SUFFIX,wangsu.com
 DOMAIN-SUFFIX,wkcdn.com
 
-# ==================================================
 # 08 远程连接与跨境平台
-# ==================================================
-
-# --- TeamViewer (12 条) ---
-DOMAIN-SUFFIX,teamviewer.com
-IP-CIDR,139.220.243.27/32,no-resolve
-IP-CIDR,172.16.102.56/32,no-resolve
-IP-CIDR,185.188.32.0/24,no-resolve
-IP-CIDR,185.188.33.0/24,no-resolve
-IP-CIDR,185.188.34.0/24,no-resolve
-IP-CIDR,185.188.35.0/24,no-resolve
-IP-CIDR,221.226.128.146/32,no-resolve
-IP-CIDR6,2a0b:b580::/48,no-resolve
-IP-CIDR6,2a0b:b581::/48,no-resolve
-IP-CIDR6,2a0b:b582::/48,no-resolve
-IP-CIDR6,2a0b:b583::/48,no-resolve
-
-# --- 国际学术文献及机构 (55 条) ---
+# --- 国际学术文献及机构 ---
 DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,acs.org
 DOMAIN-SUFFIX,aip.org
@@ -583,17 +510,13 @@ DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
 
-# ==================================================
 # 09 下载与特殊直连
-# ==================================================
-
-# --- BT / Tracker 相关关键词 (4 条) ---
+# --- BT / Tracker 相关关键词 ---
 DOMAIN-SUFFIX,smtp
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
-
-# --- PT / 私有 Tracker (23 条) ---
+# --- PT / 私有 Tracker ---
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
@@ -618,11 +541,8 @@ DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
 
-# ==================================================
 # 10 其他原始直连域名
-# ==================================================
-
-# --- 按域名排序 (337 条) ---
+# --- 按域名排序 ---
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,12306.com
@@ -960,3 +880,134 @@ DOMAIN-KEYWORD,beplay
 USER-AGENT,liulishuo*
 IP-CIDR,1.255.62.0/24,no-resolve
 IP-CIDR,106.11.0.0/16,no-resolve
+
+# ================================================
+# 网易综合规则（合并补充）
+# ================================================
+
+# --- DOMAIN-SUFFIX ---
+DOMAIN-SUFFIX,126.am
+DOMAIN-SUFFIX,126.fm
+DOMAIN-SUFFIX,126.link
+DOMAIN-SUFFIX,127.com
+DOMAIN-SUFFIX,127cdn.com
+DOMAIN-SUFFIX,163.fm
+DOMAIN-SUFFIX,163.link
+DOMAIN-SUFFIX,163adl.com
+DOMAIN-SUFFIX,163cms.com
+DOMAIN-SUFFIX,163fen.com
+DOMAIN-SUFFIX,163img.com
+DOMAIN-SUFFIX,163industry.com
+DOMAIN-SUFFIX,163jiasu.com
+DOMAIN-SUFFIX,163kada.com
+DOMAIN-SUFFIX,163mail.com
+DOMAIN-SUFFIX,163mail.net
+DOMAIN-SUFFIX,163nasa.com
+DOMAIN-SUFFIX,163nos.com
+DOMAIN-SUFFIX,166.com
+DOMAIN-SUFFIX,166.net
+DOMAIN-SUFFIX,166cdn.com
+DOMAIN-SUFFIX,166dns.com
+DOMAIN-SUFFIX,188.com
+DOMAIN-SUFFIX,188.net
+DOMAIN-SUFFIX,188cdn.com
+DOMAIN-SUFFIX,21cntx.com
+DOMAIN-SUFFIX,321fenx.com
+DOMAIN-SUFFIX,adl163.com
+DOMAIN-SUFFIX,chatnos.com
+DOMAIN-SUFFIX,dingwei.link
+DOMAIN-SUFFIX,easebar.com
+DOMAIN-SUFFIX,easebar.net
+DOMAIN-SUFFIX,gamehaopu.com
+DOMAIN-SUFFIX,gameviewer.com
+DOMAIN-SUFFIX,haowu.link
+DOMAIN-SUFFIX,hukeck.com
+DOMAIN-SUFFIX,hukecs.com
+DOMAIN-SUFFIX,hukecwx.com
+DOMAIN-SUFFIX,hukefjb.com
+DOMAIN-SUFFIX,hukehyh.com
+DOMAIN-SUFFIX,hukelc.com
+DOMAIN-SUFFIX,hukenb.com
+DOMAIN-SUFFIX,hukesxm.com
+DOMAIN-SUFFIX,hukewq.com
+DOMAIN-SUFFIX,hukexyy.com
+DOMAIN-SUFFIX,icourse163.com
+DOMAIN-SUFFIX,icourse163.org
+DOMAIN-SUFFIX,icourses163.com
+DOMAIN-SUFFIX,icourses163.org
+DOMAIN-SUFFIX,infiniteborders3kingdoms.com
+DOMAIN-SUFFIX,kada.com
+DOMAIN-SUFFIX,kada163.com
+DOMAIN-SUFFIX,laiqukankan.com
+DOMAIN-SUFFIX,lf126.net
+DOMAIN-SUFFIX,lf127.net
+DOMAIN-SUFFIX,marvelunlimitedresources.com
+DOMAIN-SUFFIX,nbhuke.com
+DOMAIN-SUFFIX,ndiip.com
+DOMAIN-SUFFIX,nease.net
+DOMAIN-SUFFIX,netease-inc.com
+DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,neteasegame.com
+DOMAIN-SUFFIX,neteasegame.net
+DOMAIN-SUFFIX,neteasegames.com
+DOMAIN-SUFFIX,neteasegames.net
+DOMAIN-SUFFIX,netstatic.net
+DOMAIN-SUFFIX,njdiip.com
+DOMAIN-SUFFIX,ntes53.com
+DOMAIN-SUFFIX,ntes53.net
+DOMAIN-SUFFIX,ntescdn.com
+DOMAIN-SUFFIX,playdisorder.com
+DOMAIN-SUFFIX,qiyukf.com
+DOMAIN-SUFFIX,qiyukf.net
+DOMAIN-SUFFIX,static163.net
+DOMAIN-SUFFIX,tx163.com
+DOMAIN-SUFFIX,yaoluu.com
+DOMAIN-SUFFIX,yeah.net
+DOMAIN-SUFFIX,yodao.com
+DOMAIN-SUFFIX,yodao.info
+DOMAIN-SUFFIX,yodao.net
+DOMAIN-SUFFIX,yodao.org
+DOMAIN-SUFFIX,yqkk.link
+DOMAIN-SUFFIX,yun-app.net
+DOMAIN-SUFFIX,yunxin163.com
+DOMAIN-SUFFIX,yunxinapi.com
+DOMAIN-SUFFIX,yunxindns.com
+DOMAIN-SUFFIX,yunxinfw.com
+DOMAIN-SUFFIX,yunxingslb.com
+DOMAIN-SUFFIX,yunxinhi.com
+DOMAIN-SUFFIX,yunxinhy.com
+DOMAIN-SUFFIX,yunxinrtc.com
+DOMAIN-SUFFIX,yunxinsvip.com
+DOMAIN-SUFFIX,yunxinsvr.com
+DOMAIN-SUFFIX,yunxinvcloud.com
+DOMAIN-SUFFIX,yunxinvideo.com
+DOMAIN-SUFFIX,zhuanzfx.com
+
+# --- IP-CIDR ---
+IP-CIDR,101.71.154.241/32,no-resolve
+IP-CIDR,103.126.92.132/31,no-resolve
+IP-CIDR,112.13.119.17/32,no-resolve
+IP-CIDR,112.13.119.18/32,no-resolve
+IP-CIDR,112.13.122.1/32,no-resolve
+IP-CIDR,112.13.122.4/32,no-resolve
+IP-CIDR,118.24.63.156/32,no-resolve
+IP-CIDR,182.92.170.253/32,no-resolve
+IP-CIDR,193.112.159.225/32,no-resolve
+IP-CIDR,39.105.175.128/32,no-resolve
+IP-CIDR,39.105.63.80/32,no-resolve
+IP-CIDR,45.254.48.1/32,no-resolve
+IP-CIDR,47.100.127.239/32,no-resolve
+IP-CIDR,59.111.19.33/32,no-resolve
+IP-CIDR,59.111.21.14/31,no-resolve
+
+# ================================================
+# 网易云音乐补充规则（合并补充）
+# ================================================
+
+# --- IP-CIDR ---
+IP-CIDR,115.236.112.0/20,no-resolve
+IP-CIDR,223.252.192.0/19,no-resolve
+IP-CIDR,59.111.128.0/17,no-resolve
+
+# --- USER-AGENT ---
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
