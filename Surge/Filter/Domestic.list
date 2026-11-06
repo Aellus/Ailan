@@ -1,9 +1,7 @@
 # ================================================
 # Surge 分流规则 · 中国直连合并整理版
-# Sources: Domestic.list + ChinaDomian.list
 # Format: Surge RULE-SET (不带策略组)
 # ================================================
-# 用法: 在 Surge 配置 [Rule] 中写 RULE-SET,China_Direct_Merged.list,DIRECT
 # 需先将此文件放到配置文件可访问的相应目录或通过可访问 URL 引用。
 # 提醒: 原文件包括国际站点、跨境服务及 BT/Tracker 通配关键字；
 #       为不改变用户原有分流意图，本版保留这些活跃规则，请检查直连风险。
