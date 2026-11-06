@@ -561,41 +561,6 @@ IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
 
-# --- 其他跨境/国际域名（原文件保留） (33 条) ---
-DOMAIN-SUFFIX,abercrombie.com
-DOMAIN-SUFFIX,accuweather.com
-DOMAIN-SUFFIX,air-matters.com
-DOMAIN-SUFFIX,air-matters.io
-DOMAIN-SUFFIX,amd.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,booking.com
-DOMAIN-SUFFIX,bstatic.com
-DOMAIN-SUFFIX,cloudsigma.com
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,gandi.net
-DOMAIN-SUFFIX,garmin.com
-DOMAIN-SUFFIX,hollisterco.com
-DOMAIN-SUFFIX,images-amazon.com
-DOMAIN-SUFFIX,java.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,metatrader4.com
-DOMAIN-SUFFIX,metatrader5.com
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-SUFFIX,nvidia.com
-DOMAIN-SUFFIX,oracle.com
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,synology.com
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,trellocdn.com
-DOMAIN-SUFFIX,udacity.com
-DOMAIN-SUFFIX,vmware.com
-DOMAIN-SUFFIX,weather.com
-
 # --- 国际学术文献及机构 (55 条) ---
 DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,acs.org
