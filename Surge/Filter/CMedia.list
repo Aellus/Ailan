@@ -83,6 +83,9 @@ DOMAIN-SUFFIX,71.am
 DOMAIN-KEYWORD,qiyi
 DOMAIN,cache.video.iqiyi.com
 
+# > mono
+DOMAIN-SUFFIX,zijiu522.cn
+
 # > letv
 DOMAIN-SUFFIX,api.mob.app.letv.com
 
