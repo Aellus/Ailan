@@ -1,6 +1,5 @@
 # ================================================
-# Surge RULE-SET · 国内及网易规则合并版
-# 来源: Domestic(2), NetEase, NetEaseMusic
+# Surge 国内分流
 # 用法: 在 Surge [Rule] 中引用 RULE-SET,<文件路径或URL>,DIRECT
 # 说明: 不包含策略字段；请按实际需求指定策略。
 # 处理: 完全去重、域名后缀覆盖去冗余、IP CIDR 覆盖去冗余。
