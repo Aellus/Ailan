@@ -301,6 +301,15 @@ DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,a-map.cn
+DOMAIN-SUFFIX,a-map.co
+DOMAIN-SUFFIX,a-map.link
+DOMAIN-SUFFIX,a-map.vip
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,amapauto.com
+DOMAIN-SUFFIX,anav.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,gaode.com
 
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
@@ -311,6 +320,19 @@ DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 DOMAIN-SUFFIX,sofire.baidu.com
 DOMAIN-SUFFIX,newclient.map.baidu.com
+DOMAIN-SUFFIX,baidu.cn
+DOMAIN-SUFFIX,baidu.com.cn
+DOMAIN-SUFFIX,baidu.com.hk
+DOMAIN-SUFFIX,baidu.hk
+DOMAIN-SUFFIX,baidu.mobi
+DOMAIN-SUFFIX,baiduads.com
+DOMAIN-SUFFIX,baiduapp.com
+DOMAIN-SUFFIX,tieba.baidu.com
+DOMAIN,als.baidu.com
+DOMAIN,cdn.hiphotos.baidu.com
+DOMAIN,cpro.baidustatic.com
+DOMAIN,crab.baidu.com
+DOMAIN,dlswbr.baidu.com
 
 # > bilibili
 DOMAIN-KEYWORD,bilibili
