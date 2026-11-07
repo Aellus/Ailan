@@ -1,7 +1,9 @@
+#> Workers
+DOMAIN-SUFFIX,workers.dev
+
 # Emby
 DOMAIN-KEYWORD,emby
 DOMAIN-SUFFIX,emby.wtf
-
 DOMAIN-SUFFIX,maodu.xyz
 DOMAIN-SUFFIX,yingpanfu.top
 DOMAIN-SUFFIX,jingzhe.pro
