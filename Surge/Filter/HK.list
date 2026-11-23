@@ -80,6 +80,7 @@ DOMAIN-KEYWORD,futuholdings
 DOMAIN-KEYWORD,futuniuniu
 DOMAIN-KEYWORD,futuesop
 DOMAIN-KEYWORD,moomoo
+DOMAIN-SUFFIX,itiger.com
 IP-CIDR,43.153.0.0/16,no-resolve
 IP-CIDR,49.234.0.0/16,no-resolve
 IP-CIDR,101.32.0.0/16,no-resolve
