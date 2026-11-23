@@ -209,13 +209,3 @@ DOMAIN,www.snowballsecurities.com
 DOMAIN,open.snowballsecurities.com
 DOMAIN,openapi.snbsecurities.com
 DOMAIN,sandbox.snbsecurities.com
-
-#> Interactive Brokers
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,interactivebrokers.com.hk
-
-#> US brokers - Schwab
-DOMAIN-SUFFIX,schwab.com
-DOMAIN-SUFFIX,schwab.com.cn
-DOMAIN-SUFFIX,schwab.com.hk
-DOMAIN-SUFFIX,schwab.co.uk
