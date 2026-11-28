@@ -11,17 +11,27 @@ DOMAIN-SUFFIX,interactivebrokers.com.sg
 DOMAIN-SUFFIX,interactivebrokers.com.hk
 DOMAIN-SUFFIX,interactivebrokers.com.au
 
+#> Interactive Brokers
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+
 #> Schwab
 DOMAIN-KEYWORD,schwab
 DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,schwab.com.hk
-
-#> Interactive Brokers
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,interactivebrokers.com.hk
 
 #> US brokers - Schwab
 DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,schwab.com.cn
 DOMAIN-SUFFIX,schwab.com.hk
 DOMAIN-SUFFIX,schwab.co.uk
+
+#> 雪球 X / Snowball Securities
+DOMAIN-SUFFIX,snowball-x.com
+DOMAIN-SUFFIX,snowballsecurities.com
+DOMAIN-SUFFIX,snbsecurities.com
+DOMAIN,cn.snowball-x.com
+DOMAIN,www.snowballsecurities.com
+DOMAIN,open.snowballsecurities.com
+DOMAIN,openapi.snbsecurities.com
+DOMAIN,sandbox.snbsecurities.com
